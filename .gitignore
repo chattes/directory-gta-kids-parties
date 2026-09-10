@@ -25,3 +25,6 @@ __pycache__/
 # pipeline intermediates (raw Apify dumps, review JSON)
 raw.json
 reviews.json
+
+# pinterest pin assets (regenerate with scripts/make_pins.py)
+assets/pins/
