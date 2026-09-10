@@ -2,7 +2,7 @@ import { venues, cities } from '@/lib/venues';
 import { SITE_URL } from '@/lib/site';
 
 export default function sitemap() {
-  const staticPages = ['', '/birthday-party-venues'].map((p) => ({
+  const staticPages = ['', '/birthday-party-venues', '/contact'].map((p) => ({
     url: `${SITE_URL}${p}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',

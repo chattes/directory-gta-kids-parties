@@ -8,6 +8,8 @@ export default function SiteNav() {
       </Link>
       <nav>
         <Link href="/birthday-party-venues">Venues by City</Link>
+        {' · '}
+        <Link href="/contact">Contact</Link>
       </nav>
     </div>
   );

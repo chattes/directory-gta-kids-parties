@@ -133,6 +133,7 @@ h2 { margin-top: 36px; font-size: 1.25rem; }
 .contact-list { list-style: none; padding: 0; }
 .contact-list li { margin: 6px 0; }
 .contact-list a { color: var(--accent); }
+.cta { font-weight: 700; color: var(--accent); font-size: 1.05rem; }
 
 /* Footer */
 .site-footer {
