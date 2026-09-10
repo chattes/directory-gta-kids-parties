@@ -30,7 +30,8 @@ def main():
     start = datetime.strptime(sys.argv[2], "%Y-%m-%d") if len(sys.argv) > 2 else datetime.now() + timedelta(days=1)
     start = start.replace(hour=14, minute=0)  # 14:00 UTC = 10am Toronto
 
-    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "make_pins.py")], check=True)
+    extra = sys.argv[3:]  # e.g. --venues
+    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "make_pins.py"), *extra], check=True)
 
     md = open(os.path.join(PINS, "pins.md")).read()
     rows = []

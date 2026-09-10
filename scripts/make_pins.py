@@ -67,42 +67,64 @@ def make_pin(photo, headline, subline, footer, out):
     pin.save(out, quality=92)
 
 def main():
+    import sys
+    mode = "venues" if "--venues" in sys.argv else "cities"
+    top_n = 15
     data = json.load(open(os.path.join(ROOT, "web", "lib", "data", "venues.json")))
-    cities = [{"name": c, "count": len(s)} for c, s in data["cities"].items()]
-    cities.sort(key=lambda c: -c["count"])
-
     photos = ["cartoon_balloons_rgb.jpg", "balloons_event_rgb.jpg", "cake_candles.jpg"]
-    total = len(data["venues"])
     rows = []
 
-    for i, c in enumerate(cities):
-        slug = c["name"].lower().replace(" ", "-")
-        headline = f"{c['count']} Best Kids Party Venues in {c['name']}"
-        sub = "Indoor playgrounds · trampoline parks · party packages"
-        fname = f"pin-{slug}.png"
-        make_pin(os.path.join(PHOTOS, photos[i % len(photos)]), headline, sub,
-                 "Toronto Birthday Parties", os.path.join(PINS, fname))
+    if mode == "venues":
+        top = [v for v in data["venues"] if v.get("website")][:top_n]
+        for i, v in enumerate(top):
+            headline = v["name"]
+            det = (v.get("partyDetails") or "").replace("prices: ", "Packages ").replace("capacity: ", "- up to ")
+            if len(det) > 90: det = det[:87] + "..."
+            sub = det or " · ".join(v["tags"][:3])
+            fname = f"pin-{v['slug']}.png"
+            make_pin(os.path.join(PHOTOS, photos[i % len(photos)]), headline, sub,
+                     "Toronto Birthday Parties", os.path.join(PINS, fname))
+            rating = f" rated {v['rating']} stars" if v.get("rating") else ""
+            rows.append({
+                "file": fname,
+                "title": f"{v['name']} - Kids Birthday Party Venue in {v['city']}",
+                "desc": (f"{v['name']} is a kids birthday party venue in {v['city']}, Ontario{rating}. "
+                         f"{(v.get('partyDetails') or 'Birthday party packages available.')}. "
+                         f"Contact details, packages and more venues on Toronto Birthday Parties."),
+                "link": f"https://torontobirthdayparties.com/venues/{v['slug']}",
+            })
+        print(f"venue mode: top {len(rows)} venues by review count")
+    else:
+        cities = [{"name": c, "count": len(s)} for c, s in data["cities"].items()]
+        cities.sort(key=lambda c: -c["count"])
+        total = len(data["venues"])
+        for i, c in enumerate(cities):
+            slug = c["name"].lower().replace(" ", "-")
+            headline = f"{c['count']} Best Kids Party Venues in {c['name']}"
+            sub = "Indoor playgrounds · trampoline parks · party packages"
+            fname = f"pin-{slug}.png"
+            make_pin(os.path.join(PHOTOS, photos[i % len(photos)]), headline, sub,
+                     "Toronto Birthday Parties", os.path.join(PINS, fname))
+            rows.append({
+                "file": fname,
+                "title": f"Kids Birthday Party Venues in {c['name']} ({c['count']} Curated)",
+                "desc": (f"Looking for birthday party venues in {c['name']}? {c['count']} hand-picked "
+                         f"kids party venues with real package pricing — indoor playgrounds, trampoline "
+                         f"parks and party spaces. Compare and contact directly."),
+                "link": f"https://torontobirthdayparties.com/birthday-party-venues/{slug}",
+            })
+        make_pin(os.path.join(PHOTOS, "cartoon_balloons_rgb.jpg"),
+                 f"{total} Kids Party Venues Across the GTA",
+                 "The curated directory — searchable by city",
+                 "Toronto Birthday Parties", os.path.join(PINS, "pin-homepage.png"))
         rows.append({
-            "file": fname,
-            "title": f"Kids Birthday Party Venues in {c['name']} ({c['count']} Curated)",
-            "desc": (f"Looking for birthday party venues in {c['name']}? {c['count']} hand-picked "
-                     f"kids party venues with real package pricing — indoor playgrounds, trampoline "
-                     f"parks and party spaces. Compare and contact directly."),
-            "link": f"https://torontobirthdayparties.com/birthday-party-venues/{slug}",
+            "file": "pin-homepage.png",
+            "title": f"Kids Birthday Party Venues Across the GTA ({total} Curated)",
+            "desc": ("A hand-curated directory of kids birthday party venues across Toronto, "
+                     "Mississauga, Scarborough, Vaughan and the whole GTA. Every listing verified "
+                     "for birthday packages — searchable by city."),
+            "link": "https://torontobirthdayparties.com/",
         })
-
-    make_pin(os.path.join(PHOTOS, "cartoon_balloons_rgb.jpg"),
-             f"{total} Kids Party Venues Across the GTA",
-             "The curated directory — searchable by city",
-             "Toronto Birthday Parties", os.path.join(PINS, "pin-homepage.png"))
-    rows.append({
-        "file": "pin-homepage.png",
-        "title": f"Kids Birthday Party Venues Across the GTA ({total} Curated)",
-        "desc": ("A hand-curated directory of kids birthday party venues across Toronto, "
-                 "Mississauga, Scarborough, Vaughan and the whole GTA. Every listing verified "
-                 "for birthday packages — searchable by city."),
-        "link": "https://torontobirthdayparties.com/",
-    })
 
     with open(os.path.join(PINS, "pins.md"), "w") as f:
         f.write("# Pinterest pins — upload sheet\n\n")
