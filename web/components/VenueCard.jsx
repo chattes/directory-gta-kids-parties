@@ -1,0 +1,32 @@
+import Link from 'next/link';
+import { primaryTag, priceLabel } from '@/lib/venues';
+
+export default function VenueCard({ venue }) {
+  const price = priceLabel(venue);
+  return (
+    <article className="venue-card">
+      <h3>
+        <Link href={`/venues/${venue.slug}`}>{venue.name}</Link>
+      </h3>
+      <p className="venue-meta">
+        <span className="tag">{primaryTag(venue)}</span>
+        {venue.tags.slice(1, 3).map((t) => (
+          <span className="tag tag-soft" key={t}>
+            {t}
+          </span>
+        ))}
+      </p>
+      <p className="venue-city">
+        📍 {venue.city}, ON
+        {venue.rating ? (
+          <span className="rating">
+            {' '}
+            · ★ {venue.rating.toFixed(1)} ({venue.reviews.toLocaleString('en-CA')} reviews)
+          </span>
+        ) : null}
+        {price ? <span> · {price}</span> : null}
+      </p>
+      {venue.partyDetails ? <p className="venue-party">{venue.partyDetails}</p> : null}
+    </article>
+  );
+}

@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+
+# production
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+*.log
+
+# local env / secrets — never commit
+.env
+.env.local
+*.local
+
+# python
+__pycache__/
+*.pyc
+
+# pipeline intermediates (raw Apify dumps, review JSON)
+raw.json
+reviews.json
