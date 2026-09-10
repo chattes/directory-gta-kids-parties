@@ -1,3 +1,4 @@
+import ContactForm from '@/components/ContactForm';
 import { SITE_URL } from '@/lib/site';
 
 export const metadata = {
@@ -26,37 +27,19 @@ export default function ContactPage() {
       </p>
 
       <section className="party-box">
-        <h2>🎉 List your business</h2>
-        <p>
-          Run an indoor playground, trampoline park, party venue, or kids entertainment service in
-          the GTA? We&apos;re always adding verified venues. Send us your business name, address,
-          website, and what your birthday party packages include — we&apos;ll review and add your
-          listing.
-        </p>
-        <p>
-          <a className="cta" href={`mailto:${EMAIL}?subject=List%20my%20business%20-%20venue%20listing`}>
-            Apply for a listing →
-          </a>
-        </p>
+        <ContactForm />
       </section>
 
       <section>
-        <h2>💬 Feedback & suggestions</h2>
+        <h2>What happens when you list your business?</h2>
         <p>
-          Spotted outdated info (a venue that closed, wrong phone number)? Got an idea to make the
-          directory more useful? Tell us — corrections keep the list trustworthy.
+          Send us your business name, address, website, and what your birthday party packages
+          include. We review every submission by hand — if it&apos;s a genuine kids party venue in
+          the GTA, we add it to the directory. Premium placement (photos, direct links, featured
+          spots) is coming soon.
         </p>
         <p>
-          <a className="cta" href={`mailto:${EMAIL}?subject=Feedback%20-%20torontobirthdayparties.com`}>
-            Send feedback →
-          </a>
-        </p>
-      </section>
-
-      <section>
-        <h2>Everything else</h2>
-        <p>
-          Direct email:{' '}
+          Prefer plain email? Reach us at{' '}
           <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
         </p>
       </section>
