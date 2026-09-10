@@ -11,6 +11,9 @@ export const metadata = {
   },
   description:
     'A curated directory of kids birthday party venues across the Greater Toronto Area — indoor playgrounds, trampoline parks, party services and more, searchable by city.',
+  verification: {
+    pinterest: 'd1f57e728cb44062107f8ec72f669df4',
+  },
 };
 
 export default function RootLayout({ children }) {
