@@ -6,7 +6,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/site';
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'GTA Kids Parties — Kids Birthday Party Venues Across the GTA',
+    default: 'Toronto Birthday Parties — Kids Party Venues Across the GTA',
     template: `%s | ${SITE_NAME}`,
   },
   description:
