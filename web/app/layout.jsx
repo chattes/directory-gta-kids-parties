@@ -1,5 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/next';
 import SiteNav from '@/components/SiteNav';
 import { SITE_URL, SITE_NAME } from '@/lib/site';
 
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
             </p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
