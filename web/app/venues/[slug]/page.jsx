@@ -84,7 +84,10 @@ export default async function VenuePage({ params }) {
           {v.rating ? (
             <span className="rating">
               {' '}
-              · ★ {v.rating.toFixed(1)} ({v.reviews.toLocaleString('en-CA')} Google reviews)
+              ·{' '}
+              <a href={v.mapsUrl} target="_blank" rel="noopener noreferrer">
+                ★ {v.rating.toFixed(1)} ({v.reviews.toLocaleString('en-CA')} Google reviews)
+              </a>
             </span>
           ) : null}
           {price ? <span> · {price}</span> : null}

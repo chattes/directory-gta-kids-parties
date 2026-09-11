@@ -117,6 +117,8 @@ h2 { margin-top: 36px; font-size: 1.25rem; }
 .tag-soft { background: #f2ece5; color: var(--muted); font-weight: 600; }
 .venue-city { margin: 0; color: var(--muted); font-size: 0.92rem; }
 .rating { color: #b8860b; }
+.rating a { color: inherit; text-decoration: underline dotted; }
+.rating a:hover { text-decoration: underline; }
 .venue-party { margin: 8px 0 0; font-size: 0.88rem; color: var(--muted); }
 
 /* Detail page */

@@ -21,7 +21,10 @@ export default function VenueCard({ venue }) {
         {venue.rating ? (
           <span className="rating">
             {' '}
-            · ★ {venue.rating.toFixed(1)} ({venue.reviews.toLocaleString('en-CA')} reviews)
+            ·{' '}
+            <a href={venue.mapsUrl} target="_blank" rel="noopener noreferrer">
+              ★ {venue.rating.toFixed(1)} ({venue.reviews.toLocaleString('en-CA')} reviews)
+            </a>
           </span>
         ) : null}
         {price ? <span> · {price}</span> : null}
