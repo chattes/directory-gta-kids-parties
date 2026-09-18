@@ -34,5 +34,8 @@ data/crawls/
 
 # price-extraction intermediate (regenerate from crawl markdown)
 data/party_extract.json
+
+# monthly listing-health report (regenerate with scripts/verify_listings.py)
+data/verify_report.json
 .vercel
 .env*

@@ -24,6 +24,11 @@ truth the site is built from. Never edit copies elsewhere.
 
 ## Routine updates
 
+**Monthly listing verification:** `python3 scripts/verify_listings.py` (read-only;
+writes `data/verify_report.json`, gitignored). Drop rules + post-drop steps: see
+"Monthly Listing Verification (cron)" in the Directory Business Playbook (vault).
+`dead` is the only auto-drop case.
+
 **Delist a venue:** delete its row from the CSV → `build_data.py` → rebuild → deploy.
 That's it. Google drops the page from the index on its next crawl (it's 404'd
 via not-found).
