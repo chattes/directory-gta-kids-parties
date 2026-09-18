@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { primaryTag, priceLabel } from '@/lib/venues';
+import { primaryTag, priceLabel, fromPriceLabel } from '@/lib/venues';
 
 export default function VenueCard({ venue }) {
   const price = priceLabel(venue);
+  const fromPrice = fromPriceLabel(venue);
   return (
     <article className="venue-card">
       <h3>
@@ -28,6 +29,7 @@ export default function VenueCard({ venue }) {
           </span>
         ) : null}
         {price ? <span> · {price}</span> : null}
+        {fromPrice ? <span className="tag tag-price venue-price-tag">{fromPrice}</span> : null}
       </p>
       {venue.partyDetails ? <p className="venue-party">{venue.partyDetails}</p> : null}
     </article>

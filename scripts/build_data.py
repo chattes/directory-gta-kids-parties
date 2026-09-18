@@ -33,6 +33,8 @@ def main(inp):
             "lng": float(r["lng"]) if r.get("lng") else None,
             "mapsUrl": (r.get("google_maps_url") or "").strip(),
             "partyDetails": (r.get("party_details") or "").strip(),
+            "fromPrice": int(r["from_price"]) if (r.get("from_price") or "").strip() else None,
+            "priceBucket": (r.get("price_bucket") or "").strip() or None,
             "kidReviewPct": int(r.get("kid_review_pct") or 0),
         })
     venues.sort(key=lambda v: -(v["reviews"] or 0))

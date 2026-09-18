@@ -115,6 +115,8 @@ h2 { margin-top: 36px; font-size: 1.25rem; }
   margin-right: 4px;
 }
 .tag-soft { background: #f2ece5; color: var(--muted); font-weight: 600; }
+.tag-price { background: #e7f6ec; color: #177245; border: 1px solid #b7e4c7; }
+.venue-price-tag { margin-left: 6px; vertical-align: middle; }
 .venue-city { margin: 0; color: var(--muted); font-size: 0.92rem; }
 .rating { color: #b8860b; }
 .rating a { color: inherit; text-decoration: underline dotted; }
@@ -132,6 +134,7 @@ h2 { margin-top: 36px; font-size: 1.25rem; }
   margin: 18px 0;
 }
 .party-box h2 { margin-top: 0; }
+.party-from { font-size: 1.2rem; font-weight: 800; color: #177245; margin: 4px 0 8px; }
 .contact-list { list-style: none; padding: 0; }
 .contact-list li { margin: 6px 0; }
 .contact-list a { color: var(--accent); }

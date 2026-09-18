@@ -19,3 +19,5 @@ export const primaryTag = (v) => v.tags[0] || 'Party venue';
 
 export const priceLabel = (v) =>
   ({ $: 'Budget-friendly', $$: 'Mid-range', $$$: 'Premium', $$$$: 'Luxury' })[v.priceLevel] || null;
+
+export const fromPriceLabel = (v) => (v.fromPrice ? `from $${v.fromPrice}` : null);

@@ -28,3 +28,11 @@ reviews.json
 
 # pinterest pin assets (regenerate with scripts/make_pins.py)
 assets/pins/
+
+# raw crawl markdown (own site + venue party pages)
+data/crawls/
+
+# price-extraction intermediate (regenerate from crawl markdown)
+data/party_extract.json
+.vercel
+.env*

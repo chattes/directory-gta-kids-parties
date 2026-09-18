@@ -56,6 +56,18 @@ export default async function VenuePage({ params }) {
         }
       : {}),
     ...(v.lat && v.lng ? { geo: { '@type': 'GeoCoordinates', latitude: v.lat, longitude: v.lng } } : {}),
+    ...(v.fromPrice
+      ? {
+          offers: {
+            '@type': 'Offer',
+            name: 'Birthday party package',
+            price: String(v.fromPrice),
+            priceCurrency: 'CAD',
+            description: `Birthday party packages from $${v.fromPrice} CAD, as listed by the venue`,
+            ...(v.website ? { url: v.website } : {}),
+          },
+        }
+      : {}),
   };
 
   return (
@@ -92,10 +104,11 @@ export default async function VenuePage({ params }) {
           ) : null}
           {price ? <span> · {price}</span> : null}
         </p>
-        {v.partyDetails ? (
+        {v.partyDetails || v.fromPrice ? (
           <section className="party-box">
             <h2>Party package info</h2>
-            <p>{v.partyDetails}</p>
+            {v.fromPrice ? <p className="party-from">Packages from ${v.fromPrice}</p> : null}
+            {v.partyDetails ? <p>{v.partyDetails}</p> : null}
           </section>
         ) : null}
         <section>
