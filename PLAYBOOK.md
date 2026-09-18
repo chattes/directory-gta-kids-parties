@@ -32,7 +32,9 @@ via not-found).
 city, website, google_maps_url — the site renders fine with partial data.
 
 **Add a city or category:** edit `CITIES` / `CATEGORIES` at the top of
-`scripts/apify_run.py`, then run the full pipeline.
+`scripts/apify_run.py`, then run the full pipeline. (Whitby was added this
+way on 2026-09-18 — `CITIES` is now 13; scrape a subset only with e.g.
+`PLACES_CITIES='["Whitby"]' python3 scripts/apify_run.py`.)
 
 **Full refresh cadence:** quarterly is plenty. Monthly if you're actively growing.
 

@@ -6,14 +6,17 @@ Keeps: rating >= 4.0, >= 15 reviews, complaint rate < 25%, recent avg >= 3.8,
 no adult-focused venue with zero kid mentions. Adds kid_review_pct,
 recent_avg_stars, review_red_flags. Review the flag list before trusting drops.
 """
-import csv, json, re, sys
+import csv, json, os, re, sys
 from collections import defaultdict
 
 KID_RE = re.compile(r'\b(kid|kids|child|children|birthday|party|toddler|son|daughter|niece|nephew)\b', re.I)
 NEG_RE = re.compile(r'(dirty|filthy|rude|unsafe|injur|refund|cancelled|canceled|rip.?off|overpriced|never again|disappoint|waste of money|broken equipment|rough)', re.I)
 ADULT_RE = re.compile(r'\b(bar|nightclub|19\+|adults only|craft drinks|cocktail)\b', re.I)
 
-MIN_RATING, MIN_REVIEWS, MAX_NEG_PCT, MIN_RECENT_AVG = 4.0, 15, 25, 3.8
+MIN_RATING = float(os.environ.get("MIN_RATING", 4.0))
+MIN_REVIEWS = int(os.environ.get("MIN_REVIEWS", 15))
+MAX_NEG_PCT = float(os.environ.get("MAX_NEG_PCT", 25))
+MIN_RECENT_AVG = float(os.environ.get("MIN_RECENT_AVG", 3.8))
 
 def main(inp, revjson, outp):
     top = list(csv.DictReader(open(inp)))
@@ -43,7 +46,7 @@ def main(inp, revjson, outp):
     fields = list(top[0].keys())
     with open(outp, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields); w.writeheader()
-        for r, _ in flagged + [(k, []) for k in kept]: w.writerow(r)
+        for r, _ in flagged + kept: w.writerow(r)
     print(f"kept {len(kept)} | flagged {len(flagged)} (review out.csv, flagged rows have reasons in notes below)")
     for r, reasons in flagged:
         print(f"  FLAG {r['name']}: {'; '.join(reasons)}")

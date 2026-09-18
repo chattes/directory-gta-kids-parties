@@ -187,6 +187,36 @@
    "kidReviewPct": 5
   },
   {
+   "slug": "sky-zone-trampoline-park-whitby",
+   "name": "Sky Zone Trampoline Park Whitby",
+   "tags": [
+    "Indoor playground",
+    "Children's amusement center",
+    "Children's party service",
+    "Event venue",
+    "Amusement center",
+    "Party planner",
+    "Recreation center",
+    "Sports complex",
+    "Video arcade"
+   ],
+   "address": "240 S Blair St, Whitby, ON L1N 0G3, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 0G3",
+   "phone": "+12892756502",
+   "website": "https://www.skyzone.com/ca-whitby/",
+   "rating": 4.4,
+   "reviews": 2896,
+   "priceLevel": "",
+   "lat": 43.8555299,
+   "lng": -78.9221489,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sky%20Zone%20Trampoline%20Park&query_place_id=ChIJf7D-QgTi1IkRONUgz7Aiu2I",
+   "partyDetails": "",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 45
+  },
+  {
    "slug": "aerosports-brampton",
    "name": "Aerosports Brampton",
    "tags": [
@@ -285,6 +315,63 @@
    "partyDetails": "up to 12 kids \u00b7 ages 4\u201313",
    "fromPrice": null,
    "priceBucket": null,
+   "kidReviewPct": 45
+  },
+  {
+   "slug": "flying-squirrel-trampoline-park-whitby",
+   "name": "Flying Squirrel Trampoline Park Whitby",
+   "tags": [
+    "Indoor playground",
+    "Children's amusement center",
+    "Children's party service",
+    "Amusement center",
+    "Recreation center",
+    "Video arcade"
+   ],
+   "address": "1400 Victoria St E, Whitby, ON L1N 0M2, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 0M2",
+   "phone": "+12897325327",
+   "website": "https://flyingsquirrelsports.ca/whitby-ontario/",
+   "rating": 4.3,
+   "reviews": 2024,
+   "priceLevel": "",
+   "lat": 43.8665657,
+   "lng": -78.9116668,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flying%20Squirrel%20Trampoline%20Park&query_place_id=ChIJ4zAXmx4d1YkRWss7PJzUswo",
+   "partyDetails": "2.5 hours",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 45
+  },
+  {
+   "slug": "chuck-e-cheese-whitby",
+   "name": "Chuck E. Cheese Whitby",
+   "tags": [
+    "Indoor playground",
+    "Amusement center",
+    "Children's party service",
+    "Family restaurant",
+    "Children's amusement center",
+    "Pizza delivery",
+    "Pizza restaurant",
+    "Pizza Takeout",
+    "Video arcade"
+   ],
+   "address": "75 Consumers Dr Bldg. J, Whitby, ON L1N 9S2, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 9S2",
+   "phone": "+19056652142",
+   "website": "https://www.chuckecheese.com/whitby-on",
+   "rating": 4.1,
+   "reviews": 1898,
+   "priceLevel": "",
+   "lat": 43.8686466,
+   "lng": -78.9112229,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chuck%20E.%20Cheese&query_place_id=ChIJZ1Z45-8d1YkR8tKQk635c7U",
+   "partyDetails": "Packages from $100 \u00b7 2 hours",
+   "fromPrice": 100,
+   "priceBucket": "<250",
    "kidReviewPct": 45
   },
   {
@@ -419,6 +506,34 @@
    "fromPrice": 320,
    "priceBucket": "250-500",
    "kidReviewPct": 15
+  },
+  {
+   "slug": "playdium-whitby",
+   "name": "Playdium Whitby",
+   "tags": [
+    "Amusement center",
+    "Bar",
+    "Bowling alley",
+    "Event venue",
+    "High ropes course",
+    "Restaurant",
+    "Video arcade"
+   ],
+   "address": "75 Consumers Dr Building V, Whitby, ON L1N 9S2, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 9S2",
+   "phone": "+12898072848",
+   "website": "https://www.playdium.com/whitby?utm_source=google-my-business_Whitby&utm_medium=profile&utm_campaign=owned_media",
+   "rating": 4.4,
+   "reviews": 1603,
+   "priceLevel": "",
+   "lat": 43.8683468,
+   "lng": -78.9148801,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Playdium%20Whitby&query_place_id=ChIJYwIfnaYd1YkR1PhqNSP5v04",
+   "partyDetails": "",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 5
   },
   {
    "slug": "jungle-land",
@@ -766,6 +881,31 @@
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 10
+  },
+  {
+   "slug": "reptilia-whitby",
+   "name": "Reptilia Whitby",
+   "tags": [
+    "Event venue",
+    "Children's camp",
+    "Education center",
+    "Zoo"
+   ],
+   "address": "1400 Victoria St E, Whitby, ON L1N 0M2, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 0M2",
+   "phone": "+19054939537",
+   "website": "https://reptilia.org/admissions/",
+   "rating": 4.5,
+   "reviews": 779,
+   "priceLevel": "",
+   "lat": 43.8665046,
+   "lng": -78.9111785,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Reptilia%20Whitby&query_place_id=ChIJWTmMsKcd1YkRQUVRYanJIy0",
+   "partyDetails": "Packages from $322 \u00b7 weekends $379 \u00b7 up to 20 kids \u00b7 1.5 hours",
+   "fromPrice": 322,
+   "priceBucket": "250-500",
+   "kidReviewPct": 40
   },
   {
    "slug": "happy-kingdom-dundas",
@@ -1364,6 +1504,34 @@
    "kidReviewPct": 45
   },
   {
+   "slug": "crock-a-doodle-whitby",
+   "name": "Crock A Doodle Whitby",
+   "tags": [
+    "Art school",
+    "Art center",
+    "Children's party service",
+    "Event planner",
+    "Event venue",
+    "Painting studio",
+    "Pottery store"
+   ],
+   "address": "30 Broadleaf Ave, Whitby, ON L1R 0B5, Canada",
+   "city": "Whitby",
+   "postalCode": "L1R 0B5",
+   "phone": "+19054251920",
+   "website": "https://crockadoodle.com/whitby",
+   "rating": 4.7,
+   "reviews": 346,
+   "priceLevel": "",
+   "lat": 43.919352,
+   "lng": -78.9567749,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Crock%20A%20Doodle%20Whitby&query_place_id=ChIJv_Gvl-ke1YkRfQQa9tCB-jo",
+   "partyDetails": "",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 25
+  },
+  {
    "slug": "happy-planet-kids-indoor-playground-party-leaside",
    "name": "Happy Planet Kids Indoor Playground & Party Leaside",
    "tags": [
@@ -1488,6 +1656,31 @@
    "fromPrice": 345,
    "priceBucket": "250-500",
    "kidReviewPct": 70
+  },
+  {
+   "slug": "aspire-climbing-whitby",
+   "name": "Aspire Climbing Whitby",
+   "tags": [
+    "Recreation center",
+    "Fitness center",
+    "Gym",
+    "Rock climbing gym"
+   ],
+   "address": "1400 Victoria St E Unit 4, Whitby, ON L1N 0M2, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 0M2",
+   "phone": "+19054309813",
+   "website": "https://www.aspireclimbing.com/whitby",
+   "rating": 4.5,
+   "reviews": 283,
+   "priceLevel": "",
+   "lat": 43.8662146,
+   "lng": -78.912328,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aspire%20Climbing%20Whitby&query_place_id=ChIJK5h0nuMd1YkRa2qoK0RZ3bM",
+   "partyDetails": "2 hours \u00b7 ages 6\u201312",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 20
   },
   {
    "slug": "bibbity-bobbity-princess-parties",
@@ -2021,6 +2214,118 @@
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 65
+  },
+  {
+   "slug": "jolly-bubble-whitby",
+   "name": "Jolly Bubble Whitby",
+   "tags": [
+    "Indoor playground"
+   ],
+   "address": "Front, 1624 Dundas St E Unit 1, Whitby, ON L1N 2K8, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 2K8",
+   "phone": "+19054936819",
+   "website": "https://thejollybubble.com/whitby-home/",
+   "rating": 4.8,
+   "reviews": 114,
+   "priceLevel": "",
+   "lat": 43.8876,
+   "lng": -78.9107013,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jolly%20Bubble%20Whitby&query_place_id=ChIJO-HdApcd1YkReLFSjll7KXg",
+   "partyDetails": "Packages from $480 \u00b7 weekends $600 \u00b7 up to 14 kids \u00b7 2 hours",
+   "fromPrice": 480,
+   "priceBucket": "250-500",
+   "kidReviewPct": 55
+  },
+  {
+   "slug": "planet-gymnastics-whitby",
+   "name": "Planet Gymnastics Whitby",
+   "tags": [
+    "Gymnastics center"
+   ],
+   "address": "#1a, 105 Industrial Dr, Whitby, ON L1N 5Z9, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 5Z9",
+   "phone": "+19056651990",
+   "website": "https://planetgymnastics.ca/",
+   "rating": 4.8,
+   "reviews": 91,
+   "priceLevel": "",
+   "lat": 43.8722074,
+   "lng": -78.9193783,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Planet%20Gymnastics&query_place_id=ChIJ35F_i-Ud1YkR7tIXAmlh3mw",
+   "partyDetails": "Packages from $300 \u00b7 up to 20 kids",
+   "fromPrice": 300,
+   "priceBucket": "250-500",
+   "kidReviewPct": 15
+  },
+  {
+   "slug": "inflatable-bouncy-castles-whitby",
+   "name": "Inflatable Bouncy Castles Whitby",
+   "tags": [
+    "Party equipment rental service",
+    "Bouncy castle hire",
+    "Children's party service"
+   ],
+   "address": "201 White Oaks Ct, Whitby, ON L1P 1A1, Canada",
+   "city": "Whitby",
+   "postalCode": "L1P 1A1",
+   "phone": "+19059262716",
+   "website": "https://inflatablebouncycastles.ca/",
+   "rating": 5.0,
+   "reviews": 83,
+   "priceLevel": "",
+   "lat": 43.873651,
+   "lng": -78.9630124,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Inflatable%20Bouncy%20Castles&query_place_id=ChIJGcRp1jcf1YkRubZDI2xeJ28",
+   "partyDetails": "",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 70
+  },
+  {
+   "slug": "dish-play-whitby",
+   "name": "Dish Play Whitby",
+   "tags": [
+    "Event venue"
+   ],
+   "address": "12 Stanley Ct Unit 1, Whitby, ON L1N 8P9, Canada",
+   "city": "Whitby",
+   "postalCode": "L1N 8P9",
+   "phone": "+19054448484",
+   "website": "http://www.dishplay.ca/",
+   "rating": 4.7,
+   "reviews": 46,
+   "priceLevel": "",
+   "lat": 43.8721313,
+   "lng": -78.9245529,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dish%20Play&query_place_id=ChIJcekq_vAd1YkR7xXbFWbooY8",
+   "partyDetails": "Packages from $580 \u00b7 up to 20 kids \u00b7 2 hours",
+   "fromPrice": 580,
+   "priceBucket": "500-800",
+   "kidReviewPct": 10
+  },
+  {
+   "slug": "bloom-grow-play-space",
+   "name": "Bloom & Grow Play Space",
+   "tags": [
+    "Indoor playground"
+   ],
+   "address": "72 Baldwin St N #204, Whitby, ON L1M 1A3, Canada",
+   "city": "Whitby",
+   "postalCode": "L1M 1A3",
+   "phone": "+19054259511",
+   "website": "https://www.bloomandgrowplayspace.ca/",
+   "rating": 5.0,
+   "reviews": 31,
+   "priceLevel": "",
+   "lat": 43.9582685,
+   "lng": -78.9605982,
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bloom%20%26%20Grow%20Play%20Space%20Inc.&query_place_id=ChIJ1_Fp3bMZ1YkRSz2Cu7CWA5Y",
+   "partyDetails": "Packages from $575 \u00b7 up to 10 kids",
+   "fromPrice": 575,
+   "priceBucket": "500-800",
+   "kidReviewPct": 40
   }
  ],
  "cities": {
@@ -2125,6 +2430,20 @@
    "sandbox-vr",
    "space-center-playground",
    "space-centre-vaughan"
+  ],
+  "Whitby": [
+   "aspire-climbing-whitby",
+   "bloom-grow-play-space",
+   "chuck-e-cheese-whitby",
+   "crock-a-doodle-whitby",
+   "dish-play-whitby",
+   "flying-squirrel-trampoline-park-whitby",
+   "inflatable-bouncy-castles-whitby",
+   "jolly-bubble-whitby",
+   "planet-gymnastics-whitby",
+   "playdium-whitby",
+   "reptilia-whitby",
+   "sky-zone-trampoline-park-whitby"
   ],
   "Woodbridge": [
    "the-bubble-jump-park-vaughan",

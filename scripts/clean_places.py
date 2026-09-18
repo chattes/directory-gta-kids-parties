@@ -11,10 +11,12 @@ KEEP_CATS = {"children's party service", "indoor playground", "children's amusem
              "children's club", "children's camp", "soft play", "trampoline park",
              "sports complex", "bowling alley", "miniature golf course", "ice skating rink",
              "swimming pool", "art studio", "pottery classes", "cooking school",
-             "dance hall", "entertainer", "magician", "balloon artist", "event venue", "banquet hall"}
+             "dance hall", "entertainer", "magician", "balloon artist", "event venue", "banquet hall",
+             "gymnastics center", "gymnastics club"}
 
 def in_gta(lat, lng):
-    return lat is not None and lng is not None and 43.35 <= lat <= 44.25 and -80.30 <= lng <= -78.85
+    # GTA bbox extended east to -78.70 to fully cover Whitby (-78.8..-79.0)
+    return lat is not None and lng is not None and 43.35 <= lat <= 44.25 and -80.30 <= lng <= -78.70
 
 def parse_city(addr, fallback):
     if fallback: return fallback

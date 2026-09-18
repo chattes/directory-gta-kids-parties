@@ -11,9 +11,11 @@ import json, os, subprocess, sys
 ACTOR = "compass~crawler-google-places"
 
 # --- tweak these to expand coverage (new cities, new categories) ---
-CITIES = ["Toronto", "Mississauga", "Brampton", "Vaughan", "Markham",
-          "Scarborough", "Oakville", "Pickering", "Richmond Hill", "Ajax",
-          "Newmarket", "Milton"]
+DEFAULT_CITIES = ["Toronto", "Mississauga", "Brampton", "Vaughan", "Markham",
+                  "Scarborough", "Oakville", "Pickering", "Richmond Hill", "Ajax",
+                  "Newmarket", "Milton", "Whitby"]
+# scrape a subset only: PLACES_CITIES='["Whitby"]' python3 scripts/apify_run.py
+CITIES = json.loads(os.environ["PLACES_CITIES"]) if os.environ.get("PLACES_CITIES") else DEFAULT_CITIES
 CATEGORIES = ["indoor playground", "children's amusement center",
               "kids birthday party venue", "children's party service"]
 MAX_PER_SEARCH = 60
