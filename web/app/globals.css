@@ -38,6 +38,17 @@ main { padding: 28px 0 48px; }
 .hero { text-align: center; padding: 24px 0 8px; }
 .hero h1 { font-size: 2rem; margin: 0 0 10px; }
 .hero p { color: var(--muted); max-width: 640px; margin: 0 auto 20px; }
+.curated-badge {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 6px 16px;
+  margin: 0 auto 14px;
+}
 
 /* Search */
 .searchbox { max-width: 640px; margin: 0 auto; text-align: left; }

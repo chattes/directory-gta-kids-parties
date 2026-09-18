@@ -30,6 +30,7 @@ export default function HomePage() {
     <div className="container">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="hero">
+        <p className="curated-badge">✋ Hand-curated by a human</p>
         <h1>Kids Birthday Party Venues Across the GTA</h1>
         <p>
           A hand-curated directory of {venues.length} indoor playgrounds, trampoline parks, party
