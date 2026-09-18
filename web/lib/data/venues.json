@@ -22,7 +22,7 @@
    "lat": 43.6412417,
    "lng": -79.3867806,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Rec%20Room%20Roundhouse&query_place_id=ChIJiTDHQZ02K4gRmbXbmJwl7CU",
-   "partyDetails": "prices: $103, $120, $13, $18, $23; capacity: 40",
+   "partyDetails": "up to 40 kids",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 20
@@ -45,7 +45,7 @@
    "lat": 43.8249707,
    "lng": -79.5353885,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=LEGOLAND%20Discovery%20Centre%20Toronto&query_place_id=ChIJB49yxhUvK4gR3Xq2u6BUibg",
-   "partyDetails": "prices: $19, $30, $50, $75, $800; capacity: 50; duration: 3 hours",
+   "partyDetails": "Packages from $800 \u00b7 up to 50 kids \u00b7 3 hours",
    "fromPrice": 800,
    "priceBucket": "800+",
    "kidReviewPct": 15
@@ -70,7 +70,7 @@
    "lat": 43.6202922,
    "lng": -79.3735438,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centreville%20Amusement%20Park&query_place_id=ChIJHfvjUSrL1IkRKR1Q--KUUi8",
-   "partyDetails": "prices: $100, $35, $695",
+   "partyDetails": "Packages from $695 \u00b7 up to 15 kids",
    "fromPrice": 695,
    "priceBucket": "500-800",
    "kidReviewPct": 10
@@ -101,7 +101,7 @@
    "lat": 43.5928688,
    "lng": -79.6455337,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Rec%20Room%20Square%20One&query_place_id=ChIJb2u0smJHK4gRyKsMVRZSUPg",
-   "partyDetails": "prices: $103, $110, $13, $18, $20; capacity: 40",
+   "partyDetails": "up to 40 kids",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 5
@@ -131,7 +131,7 @@
    "lat": 43.5113182,
    "lng": -79.6879043,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aerosports%20Trampoline%20Parks%20-%20Oakville-Mississauga&query_place_id=ChIJeXJw2wZDK4gRiwjE_63bzug",
-   "partyDetails": "prices: $13, $16, $189, $19, $20; capacity: 150; ages: 4-13",
+   "partyDetails": "up to 150 kids \u00b7 ages 4\u201313",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 25
@@ -153,7 +153,7 @@
    "lat": 43.5966048,
    "lng": -79.7900723,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jumbaloo%20Playgrounds&query_place_id=ChIJczo8wrZrK4gRbL8POyZ6eJY",
-   "partyDetails": "prices: $10, $1050, $1200, $150, $20; capacity: 20; duration: 2 hrs",
+   "partyDetails": "up to 20 kids \u00b7 2 hours",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 45
@@ -181,7 +181,7 @@
    "lat": 43.5248891,
    "lng": -79.7119554,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Air%20Riderz%20Mississauga%20-%20Kids%20Indoor%20Playground%20%26%20Birthday%20Party%20Place&query_place_id=ChIJM8ghe1tCK4gRkt9KTk7qYQw",
-   "partyDetails": "prices: $11, $15, $19, $22, $25; capacity: 20; duration: 1 hour",
+   "partyDetails": "Packages from $320 \u00b7 up to 20 kids \u00b7 1 hour",
    "fromPrice": 320,
    "priceBucket": "250-500",
    "kidReviewPct": 5
@@ -205,7 +205,7 @@
    "lat": 43.679065,
    "lng": -79.7045938,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aerosports%20Brampton&query_place_id=ChIJi-D951o-K4gR_Cjr1zXfR6M",
-   "partyDetails": "prices: $280, $319, $33, $356, $375; duration: 2 Hour",
+   "partyDetails": "Packages from $280 \u00b7 2 hours",
    "fromPrice": 280,
    "priceBucket": "250-500",
    "kidReviewPct": 70
@@ -230,7 +230,7 @@
    "lat": 43.6802598,
    "lng": -79.7158659,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Playdium%20Orion%20Gate&query_place_id=ChIJFUx--bc_K4gRvy4MCxZ-LVQ",
-   "partyDetails": "prices: $200, $325, $50; duration: 1 hour",
+   "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 0
@@ -252,7 +252,7 @@
    "lat": 43.631988,
    "lng": -79.6163682,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kidsports%20Indoor%20Playground%20Mississauga&query_place_id=ChIJleyAOIU4K4gRzQuAChv4oRw",
-   "partyDetails": "prices: $15, $25, $399, $499, $599; capacity: 30; duration: 2 hours",
+   "partyDetails": "Packages from $399 \u00b7 up to 30 kids \u00b7 2 hours",
    "fromPrice": 399,
    "priceBucket": "250-500",
    "kidReviewPct": 60
@@ -282,7 +282,7 @@
    "lat": 43.7371528,
    "lng": -79.2816051,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aerosports%20Parks%20-%20Scarborough%2FToronto&query_place_id=ChIJx3hMp8LP1IkR5Xf1836aKbA",
-   "partyDetails": "prices: $10, $14, $149, $19, $20; capacity: 12; ages: 4-13",
+   "partyDetails": "up to 12 kids \u00b7 ages 4\u201313",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 45
@@ -365,7 +365,7 @@
    "lat": 43.684487,
    "lng": -79.7828821,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=GlowZone%20360&query_place_id=ChIJN9kKba0VK4gR9LACrkVeiK8",
-   "partyDetails": "prices: $16",
+   "partyDetails": "From $16.99 per child",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 45
@@ -415,7 +415,7 @@
    "lat": 43.7998791,
    "lng": -79.5393651,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Air%20Riderz%20Adventure%20Park%20Vaughan&query_place_id=ChIJETfAn0svK4gRSv5TobhtC0s",
-   "partyDetails": "prices: $13, $15, $299, $330, $34; capacity: 12; duration: 1 hour",
+   "partyDetails": "Packages from $320 \u00b7 up to 12 kids \u00b7 1 hour",
    "fromPrice": 320,
    "priceBucket": "250-500",
    "kidReviewPct": 15
@@ -438,7 +438,7 @@
    "lat": 43.8200479,
    "lng": -79.5381212,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jungle%20Land&query_place_id=ChIJRZg0VGsvK4gRadPYM2y9Q04",
-   "partyDetails": "capacity: 10; duration: 3 hours",
+   "partyDetails": "Packages from $349 \u00b7 weekends $399 \u00b7 up to 10 kids \u00b7 3 hours",
    "fromPrice": 349,
    "priceBucket": "250-500",
    "kidReviewPct": 35
@@ -568,7 +568,7 @@
    "lat": 43.7877252,
    "lng": -79.5465349,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sandbox%20VR&query_place_id=ChIJeXOvTJ4vK4gR3WoaW42EKd4",
-   "partyDetails": "prices: $10, $100, $288, $300, $37",
+   "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 5
@@ -599,7 +599,7 @@
    "lat": 43.4003295,
    "lng": -79.7480545,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Playcious%20Oakville&query_place_id=ChIJxTKXqVZhK4gRUKGhzAzx2bo",
-   "partyDetails": "duration: 3 hours; ages: 2-6",
+   "partyDetails": "3 hours \u00b7 ages 2\u20136",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 40
@@ -621,7 +621,7 @@
    "lat": 43.6360513,
    "lng": -79.6968882,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Playcious%20Mississauga&query_place_id=ChIJ8bud-H8_K4gRCxZBM_bK_gs",
-   "partyDetails": "prices: $\ud835\udfcf\ud835\udfd5; duration: 1 hr",
+   "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 55
@@ -651,7 +651,7 @@
    "lat": 43.6038315,
    "lng": -79.5847284,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Funday!%20Family%20Centre%20%26%20Indoor%20Playground&query_place_id=ChIJV0P3gz9HK4gRgbIiTl1KvfI",
-   "partyDetails": "duration: 2 hours",
+   "partyDetails": "2 hours",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 45
@@ -681,7 +681,7 @@
    "lat": 43.7571361,
    "lng": -79.3120044,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kart%20Town%20Playground%20and%20Birthdays&query_place_id=ChIJDzZfe3fT1IkRFJJlEqtVVJ8",
-   "partyDetails": "capacity: 014",
+   "partyDetails": "up to 14 kids",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 55
@@ -704,7 +704,7 @@
    "lat": 43.9932021,
    "lng": -79.4565971,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kid's%20Cuckoos%20Nest&query_place_id=ChIJEx0YEPHTKogRDSOgJl6ugN4",
-   "partyDetails": "prices: $100, $20, $27, $299; capacity: 10; duration: 2.5 hours",
+   "partyDetails": "Packages from $299 \u00b7 up to 10 kids \u00b7 2.5 hours",
    "fromPrice": 299,
    "priceBucket": "250-500",
    "kidReviewPct": 45
@@ -731,7 +731,7 @@
    "lat": 43.83115,
    "lng": -79.0812758,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fun%20Factory%20Play%20Cafe%20-%20Pickering&query_place_id=ChIJXfg1xeXe1IkR_2AeX0R7A0c",
-   "partyDetails": "prices: $100, $14, $29, $38, $399; capacity: 10; duration: 2.5 hours",
+   "partyDetails": "Packages from $399 \u00b7 up to 10 kids \u00b7 2.5 hours",
    "fromPrice": 399,
    "priceBucket": "250-500",
    "kidReviewPct": 55
@@ -806,7 +806,7 @@
    "lat": 43.8652616,
    "lng": -79.2894207,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Funland%20Indoor%20Playground&query_place_id=ChIJxwHnOsfX1IkRcFVCKWaQpdA",
-   "partyDetails": "ages: 1 to 13",
+   "partyDetails": "ages 1\u201313",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 50
@@ -874,7 +874,7 @@
    "lat": 43.8180556,
    "lng": -79.5397237,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pixel%20Pulse%20Playzone&query_place_id=ChIJtyPi4GwvK4gRDMTy0U4bMRg",
-   "partyDetails": "prices: $10, $1199, $149, $15, $16; duration: 1 hour",
+   "partyDetails": "Packages from $399 \u00b7 1 hour",
    "fromPrice": 399,
    "priceBucket": "250-500",
    "kidReviewPct": 40
@@ -946,7 +946,7 @@
    "lat": 43.685389,
    "lng": -79.312974,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kids%20Fun%20Town&query_place_id=ChIJASF6oGzM1IkRy6sza2bT2a0",
-   "partyDetails": "prices: $ 499, $ 639, $ 799, $ 899, $25; capacity: 10; duration: 2 hour",
+   "partyDetails": "Packages from $499 \u00b7 up to 10 kids \u00b7 2 hours",
    "fromPrice": 499,
    "priceBucket": "250-500",
    "kidReviewPct": 85
@@ -969,7 +969,7 @@
    "lat": 43.72662,
    "lng": -79.3426638,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jolly%20Bubble%20North%20York&query_place_id=ChIJXfwrvZLN1IkRye_AeGqS72k",
-   "partyDetails": "prices: $119, $149, $199, $249, $28; capacity: 15; duration: 2 Hours",
+   "partyDetails": "Packages from $480 \u00b7 up to 15 kids \u00b7 2 hours",
    "fromPrice": 480,
    "priceBucket": "250-500",
    "kidReviewPct": 50
@@ -991,7 +991,7 @@
    "lat": 43.773154,
    "lng": -79.618351,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tiny%20Town%20Vaughan&query_place_id=ChIJ64aT9jI7K4gRApnz8s6hAKY",
-   "partyDetails": "prices: $13, $389, $470, $599, $640; capacity: 20; duration: 2.5 hours",
+   "partyDetails": "Packages from $470 \u00b7 up to 20 kids \u00b7 2.5 hours",
    "fromPrice": 470,
    "priceBucket": "250-500",
    "kidReviewPct": 50
@@ -1021,7 +1021,7 @@
    "lat": 43.7786761,
    "lng": -79.3441981,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Playdium%20Fairview&query_place_id=ChIJW1XKH7HT1IkRJPNG3l_DeOM",
-   "partyDetails": "prices: $50; duration: 1 hour",
+   "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 10
@@ -1044,7 +1044,7 @@
    "lat": 43.5179463,
    "lng": -79.6916909,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mighty%20Jungle%20Indoor%20Playground&query_place_id=ChIJe0OMXqpDK4gRHLcGAqER2j0",
-   "partyDetails": "prices: $ 310, $ 350, $ 385, $ 430, $ 450; capacity: 10; duration: 2 hours",
+   "partyDetails": "Packages from $310 \u00b7 Fri\u2013Sun $350 \u00b7 up to 10 kids \u00b7 2 hours",
    "fromPrice": 310,
    "priceBucket": "250-500",
    "kidReviewPct": 60
@@ -1090,7 +1090,7 @@
    "lat": 43.6346964,
    "lng": -79.6227394,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Amazing%20Fun%20Park&query_place_id=ChIJZdBR_lhvK4gR8eM0H9Zpe0w",
-   "partyDetails": "prices: $1299, $1399, $149, $150, $199; capacity: 10; duration: 2hrs",
+   "partyDetails": "Packages from $499 \u00b7 up to 10 kids \u00b7 2 hours",
    "fromPrice": 499,
    "priceBucket": "250-500",
    "kidReviewPct": 45
@@ -1140,7 +1140,7 @@
    "lat": 43.7684826,
    "lng": -79.1907071,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trapped%20Scarborough%20-%20Escape%20Room%20and%20RC%20Games%20Lounge&query_place_id=ChIJW74q_cnb1IkRXb7YaplGFmk",
-   "partyDetails": "prices: $11, $14; duration: 48 hours",
+   "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 5
@@ -1162,7 +1162,7 @@
    "lat": 43.8473468,
    "lng": -79.0716659,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Playtopia%20Pickering&query_place_id=ChIJU67mASHf1IkR5sK2xUOuNQ4",
-   "partyDetails": "prices: $ 63, $23, $518, $70, $75; duration: 6hr",
+   "partyDetails": "6 hours",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 50
@@ -1208,7 +1208,7 @@
    "lat": 43.6829813,
    "lng": -79.3260696,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jump%20for%20Joy%20Play%20Centre&query_place_id=ChIJo3hEPWXM1IkRuh_r3RJshP4",
-   "partyDetails": "prices: $ 28, $13, $14, $589, $59; capacity: 15; duration: 2hr",
+   "partyDetails": "Packages from $695 \u00b7 up to 15 kids \u00b7 2 hours",
    "fromPrice": 695,
    "priceBucket": "500-800",
    "kidReviewPct": 90
@@ -1234,7 +1234,7 @@
    "lat": 43.8686371,
    "lng": -79.2817141,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Playplex%20Game&query_place_id=ChIJydmmRGvX1IkRDVP8OqjE9qc",
-   "partyDetails": "prices: $ 599, $ 699, $29, $299, $60; capacity: 18; ages: 6\u20138",
+   "partyDetails": "Packages from $600 \u00b7 up to 18 kids \u00b7 ages 6\u20138",
    "fromPrice": 600,
    "priceBucket": "500-800",
    "kidReviewPct": 15
@@ -1286,7 +1286,7 @@
    "lat": 43.7333093,
    "lng": -79.4198952,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Liliput%20Playhouse&query_place_id=ChIJcaHmsTIzK4gRsSxUW3Dxd_E",
-   "partyDetails": "",
+   "partyDetails": "Packages from $599 \u00b7 2 hours",
    "fromPrice": 599,
    "priceBucket": "500-800",
    "kidReviewPct": 55
@@ -1309,7 +1309,7 @@
    "lat": 43.69661,
    "lng": -79.74753,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Another%20World%20VR%20Arena%20Brampton&query_place_id=ChIJR6lEH-gVK4gRDzTg6wGriEw",
-   "partyDetails": "",
+   "partyDetails": "2 hours",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 15
@@ -1333,7 +1333,7 @@
    "lat": 43.6737784,
    "lng": -79.285302,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Jingle%20Beans%20Inc.&query_place_id=ChIJO1unbX8zK4gRyENMZ4RtU6c",
-   "partyDetails": "prices: $225, $325, $375; capacity: 15",
+   "partyDetails": "Packages from $225 \u00b7 up to 15 kids \u00b7 30 minutes",
    "fromPrice": 225,
    "priceBucket": "<250",
    "kidReviewPct": 95
@@ -1358,7 +1358,7 @@
    "lat": 43.6693946,
    "lng": -79.339154,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Magic%20Moments%20Playground%20%26%20Birthday%20Parties&query_place_id=ChIJv9LUiCjL1IkRhV3wfoYdaoo",
-   "partyDetails": "prices: $ 399, $ 599, $ 699, $100, $399; capacity: 24; duration: 2hrs",
+   "partyDetails": "Packages from $399 \u00b7 up to 24 kids \u00b7 2 hours",
    "fromPrice": 399,
    "priceBucket": "250-500",
    "kidReviewPct": 45
@@ -1406,7 +1406,7 @@
    "lat": 43.7985262,
    "lng": -79.3187255,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Creative%20Playzone&query_place_id=ChIJNW9ekzfT1IkROi7jiYhmbys",
-   "partyDetails": "prices: $10, $100, $14, $15, $16; capacity: 10; duration: 2.5 Hours",
+   "partyDetails": "Packages from $499 \u00b7 up to 10 kids \u00b7 2.5 hours",
    "fromPrice": 499,
    "priceBucket": "250-500",
    "kidReviewPct": 30
@@ -1460,7 +1460,7 @@
    "lat": 43.7815438,
    "lng": -79.4756721,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Active%20Kids%20Zone&query_place_id=ChIJMxC363IuK4gR3KbhcVAlC8U",
-   "partyDetails": "prices: $125, $35",
+   "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 80
@@ -1484,7 +1484,7 @@
    "lat": 43.7211111,
    "lng": -79.3127778,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Extreme%20Fun%20Indoor%20Playground&query_place_id=ChIJHVNwerjN1IkR58kn5ILxKUg",
-   "partyDetails": "prices: $10, $100, $130, $15, $20; capacity: 50; duration: 2 hour; ages: 1 - 10",
+   "partyDetails": "Packages from $345 \u00b7 shared party $15 per child (weekdays) \u00b7 up to 50 kids \u00b7 2 hours \u00b7 ages 1\u201310",
    "fromPrice": 345,
    "priceBucket": "250-500",
    "kidReviewPct": 70
@@ -1532,7 +1532,7 @@
    "lat": 43.8033426,
    "lng": -79.169873,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Play%20Scape&query_place_id=ChIJ4QMzA4Pb1IkR6e4dt-GXi1c",
-   "partyDetails": "prices: $23, $28, $500; capacity: 16; duration: 1 Hour",
+   "partyDetails": "From $23.99 per kid \u00b7 up to 16 kids \u00b7 1 hour",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 70
@@ -1609,7 +1609,7 @@
    "lat": 43.733628,
    "lng": -79.419889,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Krafty%20Kids%20%7C%20Corporate%20Holiday%20Parties%20%26%20Creative%20Kids%E2%80%99%20Events&query_place_id=ChIJBfXk4WcyK4gRrp2H1nXKMMA",
-   "partyDetails": "prices: $10, $100, $140, $15, $150; capacity: 20; duration: 1 hr",
+   "partyDetails": "up to 20 kids \u00b7 1 hour",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 85
@@ -1631,7 +1631,7 @@
    "lat": 43.498282,
    "lng": -79.7462169,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Funvilla%20Oakville&query_place_id=ChIJI3nzLQhpK4gRQP1gbLqccHs",
-   "partyDetails": "prices: $15, $524, $624, $724, $949; capacity: 10; duration: 2.5 hours",
+   "partyDetails": "up to 10 kids \u00b7 2.5 hours",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 40
@@ -1653,7 +1653,7 @@
    "lat": 43.4439473,
    "lng": -79.6816491,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Another%20World%20VR%20Arena%20Oakville&query_place_id=ChIJ89dtJb1dK4gRq7vNr0MGjzI",
-   "partyDetails": "duration: 1 hr",
+   "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 30
@@ -1753,7 +1753,7 @@
    "lat": 43.811405,
    "lng": -79.5310585,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Glama%20Gal%20Kids%20Spa%20Vaughan&query_place_id=ChIJS9k-IgwvK4gRQRL-rI1PA7Y",
-   "partyDetails": "prices: $14, $15, $18",
+   "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 60
@@ -1783,7 +1783,7 @@
    "lat": 43.7416252,
    "lng": -79.2838012,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ZAK%20Sports%20Cricket&query_place_id=ChIJlSCC4C3P1IkRm7mnBVR3H8I",
-   "partyDetails": "prices: $21, $25, $35, $40, $50",
+   "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 0
@@ -1898,7 +1898,7 @@
    "lat": 43.7375853,
    "lng": -79.5224606,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Freckles%20World%20Children's%20Party%20Entertainment%20%7C%20Toronto&query_place_id=ChIJ62FdcCs3K4gRs7C_YATbzbA",
-   "partyDetails": "",
+   "partyDetails": "Packages from $299",
    "fromPrice": 299,
    "priceBucket": "250-500",
    "kidReviewPct": 80
@@ -1921,7 +1921,7 @@
    "lat": 43.7540559,
    "lng": -79.4666885,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alpha%20Kidz%20Indoor%20Playground&query_place_id=ChIJX8r_VwAzK4gRq9M6zdh8rI0",
-   "partyDetails": "prices: $100, $1000, $1500, $200, $459; capacity: 50",
+   "partyDetails": "Packages from $459 \u00b7 up to 50 kids",
    "fromPrice": 459,
    "priceBucket": "250-500",
    "kidReviewPct": 35
@@ -1948,7 +1948,7 @@
    "lat": 43.7836619,
    "lng": -79.3428222,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%F0%9F%A5%87%20PartyTO%20%7C%20Children's%20entertainers%2C%20Balloons%2C%20Bouncy%20Castle%2C%20Photobooth%20rentals%20in%20Toronto&query_place_id=ChIJN0qzr28zK4gRRsOHeTbhblU",
-   "partyDetails": "capacity: 24",
+   "partyDetails": "up to 24 kids",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 60
@@ -1970,7 +1970,7 @@
    "lat": 43.8021263,
    "lng": -79.4951022,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Another%20World%20VR%20Arena%20Vaughan&query_place_id=ChIJ4YvGfhwvK4gRdWDZA0l1Jpk",
-   "partyDetails": "duration: 2 hours",
+   "partyDetails": "2 hours",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 10
@@ -1992,7 +1992,7 @@
    "lat": 43.6118397,
    "lng": -79.6872511,
    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kids%20Empire%20Heartland%20Mississauga&query_place_id=ChIJle9cjnRBK4gROzybfV1CPJs",
-   "partyDetails": "prices: $13, $14, $15, $18, $69; capacity: 026",
+   "partyDetails": "up to 26 kids",
    "fromPrice": null,
    "priceBucket": null,
    "kidReviewPct": 70
