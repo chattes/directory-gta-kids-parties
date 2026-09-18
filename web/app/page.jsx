@@ -31,13 +31,28 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="hero">
         <p className="curated-badge">✋ Hand-curated by a human</p>
-        <h1>Kids Birthday Party Venues Across the GTA</h1>
-        <p>
+        <h1>
+          Kids <span className="mark">Birthday Party</span> Venues Across the GTA
+        </h1>
+        <p className="lede">
           A hand-curated directory of {venues.length} indoor playgrounds, trampoline parks, party
           venues and kids entertainers across Toronto, Mississauga, Scarborough, Vaughan and more —
           every listing verified for birthday party packages.
         </p>
         <SearchBox index={index} />
+      </section>
+
+      <section className="types" aria-label="Kinds of party venues">
+        <div className="container">
+          <ul>
+            <li>Indoor playgrounds</li>
+            <li>Trampoline parks</li>
+            <li>Laser tag</li>
+            <li>Amusement centres</li>
+            <li>VR arcades</li>
+            <li>Kids entertainers</li>
+          </ul>
+        </div>
       </section>
 
       <section>
