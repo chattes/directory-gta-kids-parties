@@ -146,6 +146,12 @@ h2 { margin-top: 36px; font-size: 1.25rem; }
 }
 .party-box h2 { margin-top: 0; }
 .party-from { font-size: 1.2rem; font-weight: 800; color: #177245; margin: 4px 0 8px; }
+.kidfit { display: inline-flex; align-items: center; gap: 7px; }
+.balloons { letter-spacing: -2px; white-space: nowrap; }
+.balloon-empty { filter: grayscale(1); opacity: 0.22; }
+.kidfit-label { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+.kidfit-line { margin: 4px 0 0; }
+.kidfit-note { font-size: 0.85rem; color: var(--muted); margin: 10px 0 0; }
 .contact-list { list-style: none; padding: 0; }
 .contact-list li { margin: 6px 0; }
 .contact-list a { color: var(--accent); }

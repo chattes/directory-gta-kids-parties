@@ -25,7 +25,8 @@
    "partyDetails": "up to 40 kids",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 20
+   "kidReviewPct": 20,
+   "kidFit": 2
   },
   {
    "slug": "legoland-discovery-centre-toronto",
@@ -48,7 +49,8 @@
    "partyDetails": "Packages from $800 \u00b7 up to 50 kids \u00b7 3 hours",
    "fromPrice": 800,
    "priceBucket": "800+",
-   "kidReviewPct": 15
+   "kidReviewPct": 15,
+   "kidFit": 3
   },
   {
    "slug": "centreville-amusement-park",
@@ -73,7 +75,8 @@
    "partyDetails": "Packages from $695 \u00b7 up to 15 kids",
    "fromPrice": 695,
    "priceBucket": "500-800",
-   "kidReviewPct": 10
+   "kidReviewPct": 10,
+   "kidFit": 3
   },
   {
    "slug": "the-rec-room-square-one",
@@ -104,7 +107,8 @@
    "partyDetails": "up to 40 kids",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 5
+   "kidReviewPct": 5,
+   "kidFit": 1
   },
   {
    "slug": "aerosports-trampoline-parks-oakville-mississauga",
@@ -134,7 +138,8 @@
    "partyDetails": "up to 150 kids \u00b7 ages 4\u201313",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 25
+   "kidReviewPct": 25,
+   "kidFit": 3
   },
   {
    "slug": "jumbaloo-playgrounds",
@@ -156,7 +161,8 @@
    "partyDetails": "up to 20 kids \u00b7 2 hours",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "air-riderz-mississauga-kids-indoor-playground-birthday-party-place",
@@ -184,7 +190,8 @@
    "partyDetails": "Packages from $320 \u00b7 up to 20 kids \u00b7 1 hour",
    "fromPrice": 320,
    "priceBucket": "250-500",
-   "kidReviewPct": 5
+   "kidReviewPct": 5,
+   "kidFit": 2
   },
   {
    "slug": "sky-zone-trampoline-park-whitby",
@@ -214,7 +221,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "aerosports-brampton",
@@ -238,7 +246,8 @@
    "partyDetails": "Packages from $280 \u00b7 2 hours",
    "fromPrice": 280,
    "priceBucket": "250-500",
-   "kidReviewPct": 70
+   "kidReviewPct": 70,
+   "kidFit": 5
   },
   {
    "slug": "playdium-orion-gate",
@@ -263,7 +272,8 @@
    "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 0
+   "kidReviewPct": 0,
+   "kidFit": 1
   },
   {
    "slug": "kidsports-indoor-playground-mississauga",
@@ -285,7 +295,8 @@
    "partyDetails": "Packages from $399 \u00b7 up to 30 kids \u00b7 2 hours",
    "fromPrice": 399,
    "priceBucket": "250-500",
-   "kidReviewPct": 60
+   "kidReviewPct": 60,
+   "kidFit": 5
   },
   {
    "slug": "aerosports-parks-scarborough-toronto",
@@ -315,7 +326,8 @@
    "partyDetails": "up to 12 kids \u00b7 ages 4\u201313",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "flying-squirrel-trampoline-park-whitby",
@@ -342,7 +354,8 @@
    "partyDetails": "2.5 hours",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "chuck-e-cheese-whitby",
@@ -372,7 +385,8 @@
    "partyDetails": "Packages from $100 \u00b7 2 hours",
    "fromPrice": 100,
    "priceBucket": "<250",
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 5
   },
   {
    "slug": "levelup-virtual-reality-vr-arcade-events-parties-team-building",
@@ -402,7 +416,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 15
+   "kidReviewPct": 15,
+   "kidFit": 2
   },
   {
    "slug": "playcious-vaughan",
@@ -431,7 +446,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 55
+   "kidReviewPct": 55,
+   "kidFit": 4
   },
   {
    "slug": "glowzone-360",
@@ -455,7 +471,8 @@
    "partyDetails": "From $16.99 per child",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "the-bubble-jump-park-toronto",
@@ -477,7 +494,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 50
+   "kidReviewPct": 50,
+   "kidFit": 4
   },
   {
    "slug": "air-riderz-adventure-park-vaughan",
@@ -505,7 +523,8 @@
    "partyDetails": "Packages from $320 \u00b7 up to 12 kids \u00b7 1 hour",
    "fromPrice": 320,
    "priceBucket": "250-500",
-   "kidReviewPct": 15
+   "kidReviewPct": 15,
+   "kidFit": 3
   },
   {
    "slug": "playdium-whitby",
@@ -533,7 +552,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 5
+   "kidReviewPct": 5,
+   "kidFit": 1
   },
   {
    "slug": "jungle-land",
@@ -556,7 +576,8 @@
    "partyDetails": "Packages from $349 \u00b7 weekends $399 \u00b7 up to 10 kids \u00b7 3 hours",
    "fromPrice": 349,
    "priceBucket": "250-500",
-   "kidReviewPct": 35
+   "kidReviewPct": 35,
+   "kidFit": 4
   },
   {
    "slug": "the-bubble-jump-park-vaughan",
@@ -578,7 +599,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 20
+   "kidReviewPct": 20,
+   "kidFit": 2
   },
   {
    "slug": "playtopia",
@@ -606,7 +628,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "kidsapia",
@@ -629,7 +652,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 75
+   "kidReviewPct": 75,
+   "kidFit": 5
   },
   {
    "slug": "treehouse-clubhouse",
@@ -660,7 +684,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 50
+   "kidReviewPct": 50,
+   "kidFit": 4
   },
   {
    "slug": "sandbox-vr",
@@ -686,7 +711,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 5
+   "kidReviewPct": 5,
+   "kidFit": 1
   },
   {
    "slug": "playcious-oakville",
@@ -717,7 +743,8 @@
    "partyDetails": "3 hours \u00b7 ages 2\u20136",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 40
+   "kidReviewPct": 40,
+   "kidFit": 3
   },
   {
    "slug": "playcious-mississauga",
@@ -739,7 +766,8 @@
    "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 55
+   "kidReviewPct": 55,
+   "kidFit": 4
   },
   {
    "slug": "funday-family-centre-indoor-playground",
@@ -769,7 +797,8 @@
    "partyDetails": "2 hours",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "kart-town-playground-and-birthdays",
@@ -799,7 +828,8 @@
    "partyDetails": "up to 14 kids",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 55
+   "kidReviewPct": 55,
+   "kidFit": 4
   },
   {
    "slug": "kid-s-cuckoos-nest",
@@ -822,7 +852,8 @@
    "partyDetails": "Packages from $299 \u00b7 up to 10 kids \u00b7 2.5 hours",
    "fromPrice": 299,
    "priceBucket": "250-500",
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 5
   },
   {
    "slug": "fun-factory-play-cafe-pickering",
@@ -849,7 +880,8 @@
    "partyDetails": "Packages from $399 \u00b7 up to 10 kids \u00b7 2.5 hours",
    "fromPrice": 399,
    "priceBucket": "250-500",
-   "kidReviewPct": 55
+   "kidReviewPct": 55,
+   "kidFit": 5
   },
   {
    "slug": "artventures-oakville-lakeshore-bronte",
@@ -880,7 +912,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 10
+   "kidReviewPct": 10,
+   "kidFit": 2
   },
   {
    "slug": "reptilia-whitby",
@@ -905,7 +938,8 @@
    "partyDetails": "Packages from $322 \u00b7 weekends $379 \u00b7 up to 20 kids \u00b7 1.5 hours",
    "fromPrice": 322,
    "priceBucket": "250-500",
-   "kidReviewPct": 40
+   "kidReviewPct": 40,
+   "kidFit": 4
   },
   {
    "slug": "happy-kingdom-dundas",
@@ -927,7 +961,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "funland-indoor-playground",
@@ -949,7 +984,8 @@
    "partyDetails": "ages 1\u201313",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 50
+   "kidReviewPct": 50,
+   "kidFit": 4
   },
   {
    "slug": "funtastic-forest",
@@ -971,7 +1007,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 80
+   "kidReviewPct": 80,
+   "kidFit": 5
   },
   {
    "slug": "space-center-playground",
@@ -993,7 +1030,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 60
+   "kidReviewPct": 60,
+   "kidFit": 4
   },
   {
    "slug": "pixel-pulse-playzone",
@@ -1017,7 +1055,8 @@
    "partyDetails": "Packages from $399 \u00b7 1 hour",
    "fromPrice": 399,
    "priceBucket": "250-500",
-   "kidReviewPct": 40
+   "kidReviewPct": 40,
+   "kidFit": 4
   },
   {
    "slug": "vr-escapism-markham-escape-rooms-arcades",
@@ -1042,7 +1081,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 10
+   "kidReviewPct": 10,
+   "kidFit": 2
   },
   {
    "slug": "happy-kingdom-brampton",
@@ -1066,7 +1106,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 35
+   "kidReviewPct": 35,
+   "kidFit": 3
   },
   {
    "slug": "kids-fun-town",
@@ -1089,7 +1130,8 @@
    "partyDetails": "Packages from $499 \u00b7 up to 10 kids \u00b7 2 hours",
    "fromPrice": 499,
    "priceBucket": "250-500",
-   "kidReviewPct": 85
+   "kidReviewPct": 85,
+   "kidFit": 5
   },
   {
    "slug": "jolly-bubble-north-york",
@@ -1112,7 +1154,8 @@
    "partyDetails": "Packages from $480 \u00b7 up to 15 kids \u00b7 2 hours",
    "fromPrice": 480,
    "priceBucket": "250-500",
-   "kidReviewPct": 50
+   "kidReviewPct": 50,
+   "kidFit": 5
   },
   {
    "slug": "tiny-town-vaughan",
@@ -1134,7 +1177,8 @@
    "partyDetails": "Packages from $470 \u00b7 up to 20 kids \u00b7 2.5 hours",
    "fromPrice": 470,
    "priceBucket": "250-500",
-   "kidReviewPct": 50
+   "kidReviewPct": 50,
+   "kidFit": 5
   },
   {
    "slug": "playdium-fairview",
@@ -1164,7 +1208,8 @@
    "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 10
+   "kidReviewPct": 10,
+   "kidFit": 2
   },
   {
    "slug": "mighty-jungle-indoor-playground",
@@ -1187,7 +1232,8 @@
    "partyDetails": "Packages from $310 \u00b7 Fri\u2013Sun $350 \u00b7 up to 10 kids \u00b7 2 hours",
    "fromPrice": 310,
    "priceBucket": "250-500",
-   "kidReviewPct": 60
+   "kidReviewPct": 60,
+   "kidFit": 5
   },
   {
    "slug": "markham-sports-dome-inc",
@@ -1209,7 +1255,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 10
+   "kidReviewPct": 10,
+   "kidFit": 2
   },
   {
    "slug": "amazing-fun-park",
@@ -1233,7 +1280,8 @@
    "partyDetails": "Packages from $499 \u00b7 up to 10 kids \u00b7 2 hours",
    "fromPrice": 499,
    "priceBucket": "250-500",
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 5
   },
   {
    "slug": "doodoo-kids-playground",
@@ -1258,7 +1306,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 65
+   "kidReviewPct": 65,
+   "kidFit": 5
   },
   {
    "slug": "trapped-scarborough-escape-room-and-rc-games-lounge",
@@ -1283,7 +1332,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 5
+   "kidReviewPct": 5,
+   "kidFit": 1
   },
   {
    "slug": "playtopia-pickering",
@@ -1305,7 +1355,8 @@
    "partyDetails": "6 hours",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 50
+   "kidReviewPct": 50,
+   "kidFit": 4
   },
   {
    "slug": "kidz-at-play",
@@ -1328,7 +1379,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 55
+   "kidReviewPct": 55,
+   "kidFit": 4
   },
   {
    "slug": "jump-for-joy-play-centre",
@@ -1351,7 +1403,8 @@
    "partyDetails": "Packages from $695 \u00b7 up to 15 kids \u00b7 2 hours",
    "fromPrice": 695,
    "priceBucket": "500-800",
-   "kidReviewPct": 90
+   "kidReviewPct": 90,
+   "kidFit": 5
   },
   {
    "slug": "playplex-game",
@@ -1377,7 +1430,8 @@
    "partyDetails": "Packages from $600 \u00b7 up to 18 kids \u00b7 ages 6\u20138",
    "fromPrice": 600,
    "priceBucket": "500-800",
-   "kidReviewPct": 15
+   "kidReviewPct": 15,
+   "kidFit": 3
   },
   {
    "slug": "happy-planet-kids-indoor-playground-party",
@@ -1402,7 +1456,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 60
+   "kidReviewPct": 60,
+   "kidFit": 4
   },
   {
    "slug": "liliput-playhouse",
@@ -1429,7 +1484,8 @@
    "partyDetails": "Packages from $599 \u00b7 2 hours",
    "fromPrice": 599,
    "priceBucket": "500-800",
-   "kidReviewPct": 55
+   "kidReviewPct": 55,
+   "kidFit": 5
   },
   {
    "slug": "another-world-vr-arena-brampton",
@@ -1452,7 +1508,8 @@
    "partyDetails": "2 hours",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 15
+   "kidReviewPct": 15,
+   "kidFit": 2
   },
   {
    "slug": "little-jingle-beans-inc",
@@ -1476,7 +1533,8 @@
    "partyDetails": "Packages from $225 \u00b7 up to 15 kids \u00b7 30 minutes",
    "fromPrice": 225,
    "priceBucket": "<250",
-   "kidReviewPct": 95
+   "kidReviewPct": 95,
+   "kidFit": 5
   },
   {
    "slug": "magic-moments-playground-birthday-parties",
@@ -1501,7 +1559,8 @@
    "partyDetails": "Packages from $399 \u00b7 up to 24 kids \u00b7 2 hours",
    "fromPrice": 399,
    "priceBucket": "250-500",
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 5
   },
   {
    "slug": "crock-a-doodle-whitby",
@@ -1529,7 +1588,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 25
+   "kidReviewPct": 25,
+   "kidFit": 3
   },
   {
    "slug": "happy-planet-kids-indoor-playground-party-leaside",
@@ -1555,7 +1615,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 65
+   "kidReviewPct": 65,
+   "kidFit": 5
   },
   {
    "slug": "creative-playzone",
@@ -1577,7 +1638,8 @@
    "partyDetails": "Packages from $499 \u00b7 up to 10 kids \u00b7 2.5 hours",
    "fromPrice": 499,
    "priceBucket": "250-500",
-   "kidReviewPct": 30
+   "kidReviewPct": 30,
+   "kidFit": 4
   },
   {
    "slug": "giggles-playland-inc",
@@ -1607,7 +1669,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 70
+   "kidReviewPct": 70,
+   "kidFit": 5
   },
   {
    "slug": "active-kids-zone",
@@ -1631,7 +1694,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 80
+   "kidReviewPct": 80,
+   "kidFit": 5
   },
   {
    "slug": "extreme-fun-indoor-playground",
@@ -1655,7 +1719,8 @@
    "partyDetails": "Packages from $345 \u00b7 shared party $15 per child (weekdays) \u00b7 up to 50 kids \u00b7 2 hours \u00b7 ages 1\u201310",
    "fromPrice": 345,
    "priceBucket": "250-500",
-   "kidReviewPct": 70
+   "kidReviewPct": 70,
+   "kidFit": 5
   },
   {
    "slug": "aspire-climbing-whitby",
@@ -1680,7 +1745,8 @@
    "partyDetails": "2 hours \u00b7 ages 6\u201312",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 20
+   "kidReviewPct": 20,
+   "kidFit": 2
   },
   {
    "slug": "bibbity-bobbity-princess-parties",
@@ -1702,7 +1768,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 75
+   "kidReviewPct": 75,
+   "kidFit": 5
   },
   {
    "slug": "the-play-scape",
@@ -1728,7 +1795,8 @@
    "partyDetails": "From $23.99 per kid \u00b7 up to 16 kids \u00b7 1 hour",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 70
+   "kidReviewPct": 70,
+   "kidFit": 5
   },
   {
    "slug": "never-never-land-indoor-playground",
@@ -1757,7 +1825,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 65
+   "kidReviewPct": 65,
+   "kidFit": 5
   },
   {
    "slug": "space-centre-vaughan",
@@ -1779,7 +1848,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 70
+   "kidReviewPct": 70,
+   "kidFit": 5
   },
   {
    "slug": "krafty-kids-corporate-holiday-parties-creative-kids-events",
@@ -1805,7 +1875,8 @@
    "partyDetails": "up to 20 kids \u00b7 1 hour",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 85
+   "kidReviewPct": 85,
+   "kidFit": 5
   },
   {
    "slug": "funvilla-oakville",
@@ -1827,7 +1898,8 @@
    "partyDetails": "up to 10 kids \u00b7 2.5 hours",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 40
+   "kidReviewPct": 40,
+   "kidFit": 3
   },
   {
    "slug": "another-world-vr-arena-oakville",
@@ -1849,7 +1921,8 @@
    "partyDetails": "1 hour",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 30
+   "kidReviewPct": 30,
+   "kidFit": 3
   },
   {
    "slug": "bentastic-magic",
@@ -1871,7 +1944,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 85
+   "kidReviewPct": 85,
+   "kidFit": 5
   },
   {
    "slug": "vincent-magician-for-birthday-parties-strolling-magician-magic-shows",
@@ -1902,7 +1976,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 35
+   "kidReviewPct": 35,
+   "kidFit": 3
   },
   {
    "slug": "happy-kingdom-sheppard",
@@ -1924,7 +1999,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 45
+   "kidReviewPct": 45,
+   "kidFit": 4
   },
   {
    "slug": "glama-gal-kids-spa-vaughan",
@@ -1949,7 +2025,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 60
+   "kidReviewPct": 60,
+   "kidFit": 4
   },
   {
    "slug": "zak-sports-cricket",
@@ -1979,7 +2056,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 0
+   "kidReviewPct": 0,
+   "kidFit": 1
   },
   {
    "slug": "crack-pot-studio",
@@ -2006,7 +2084,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 20
+   "kidReviewPct": 20,
+   "kidFit": 2
   },
   {
    "slug": "party-warehouse-outlet-classic-event-decor",
@@ -2037,7 +2116,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 40
+   "kidReviewPct": 40,
+   "kidFit": 3
   },
   {
    "slug": "artventures-toronto-parliament",
@@ -2067,7 +2147,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 5
+   "kidReviewPct": 5,
+   "kidFit": 1
   },
   {
    "slug": "freckles-world-children-s-party-entertainment-toronto",
@@ -2094,7 +2175,8 @@
    "partyDetails": "Packages from $299",
    "fromPrice": 299,
    "priceBucket": "250-500",
-   "kidReviewPct": 80
+   "kidReviewPct": 80,
+   "kidFit": 5
   },
   {
    "slug": "alpha-kidz-indoor-playground",
@@ -2117,7 +2199,8 @@
    "partyDetails": "Packages from $459 \u00b7 up to 50 kids",
    "fromPrice": 459,
    "priceBucket": "250-500",
-   "kidReviewPct": 35
+   "kidReviewPct": 35,
+   "kidFit": 4
   },
   {
    "slug": "partyto-children-s-entertainers-balloons-bouncy-castle-photobooth-rentals-in-toronto",
@@ -2144,7 +2227,8 @@
    "partyDetails": "up to 24 kids",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 60
+   "kidReviewPct": 60,
+   "kidFit": 4
   },
   {
    "slug": "another-world-vr-arena-vaughan",
@@ -2166,7 +2250,8 @@
    "partyDetails": "2 hours",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 10
+   "kidReviewPct": 10,
+   "kidFit": 2
   },
   {
    "slug": "kids-empire-heartland-mississauga",
@@ -2188,7 +2273,8 @@
    "partyDetails": "up to 26 kids",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 70
+   "kidReviewPct": 70,
+   "kidFit": 5
   },
   {
    "slug": "kidnasium-lawrence-park",
@@ -2213,7 +2299,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 65
+   "kidReviewPct": 65,
+   "kidFit": 5
   },
   {
    "slug": "jolly-bubble-whitby",
@@ -2235,7 +2322,8 @@
    "partyDetails": "Packages from $480 \u00b7 weekends $600 \u00b7 up to 14 kids \u00b7 2 hours",
    "fromPrice": 480,
    "priceBucket": "250-500",
-   "kidReviewPct": 55
+   "kidReviewPct": 55,
+   "kidFit": 5
   },
   {
    "slug": "planet-gymnastics-whitby",
@@ -2257,7 +2345,8 @@
    "partyDetails": "Packages from $300 \u00b7 up to 20 kids",
    "fromPrice": 300,
    "priceBucket": "250-500",
-   "kidReviewPct": 15
+   "kidReviewPct": 15,
+   "kidFit": 3
   },
   {
    "slug": "inflatable-bouncy-castles-whitby",
@@ -2281,7 +2370,8 @@
    "partyDetails": "",
    "fromPrice": null,
    "priceBucket": null,
-   "kidReviewPct": 70
+   "kidReviewPct": 70,
+   "kidFit": 5
   },
   {
    "slug": "dish-play-whitby",
@@ -2303,7 +2393,8 @@
    "partyDetails": "Packages from $580 \u00b7 up to 20 kids \u00b7 2 hours",
    "fromPrice": 580,
    "priceBucket": "500-800",
-   "kidReviewPct": 10
+   "kidReviewPct": 10,
+   "kidFit": 3
   },
   {
    "slug": "bloom-grow-play-space",
@@ -2325,7 +2416,8 @@
    "partyDetails": "Packages from $575 \u00b7 up to 10 kids",
    "fromPrice": 575,
    "priceBucket": "500-800",
-   "kidReviewPct": 40
+   "kidReviewPct": 40,
+   "kidFit": 4
   }
  ],
  "cities": {

@@ -1,9 +1,11 @@
 import Link from 'next/link';
-import { primaryTag, priceLabel, fromPriceLabel } from '@/lib/venues';
+import { primaryTag, priceLabel, fromPriceLabel, kidFitInfo } from '@/lib/venues';
+import KidFitMeter from '@/components/KidFitMeter';
 
 export default function VenueCard({ venue }) {
   const price = priceLabel(venue);
   const fromPrice = fromPriceLabel(venue);
+  const kidFit = kidFitInfo(venue);
   return (
     <article className="venue-card">
       <h3>
@@ -31,6 +33,11 @@ export default function VenueCard({ venue }) {
         {price ? <span> · {price}</span> : null}
         {fromPrice ? <span className="tag tag-price venue-price-tag">{fromPrice}</span> : null}
       </p>
+      {kidFit ? (
+        <p className="kidfit-line">
+          <KidFitMeter info={kidFit} />
+        </p>
+      ) : null}
       {venue.partyDetails ? <p className="venue-party">{venue.partyDetails}</p> : null}
     </article>
   );

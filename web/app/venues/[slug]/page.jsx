@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { venues, getVenue, getVenuesByCity, primaryTag, priceLabel } from '@/lib/venues';
+import KidFitMeter from '@/components/KidFitMeter';
+import { venues, getVenue, getVenuesByCity, primaryTag, priceLabel, kidFitInfo } from '@/lib/venues';
 import { citySlug } from '@/lib/util';
 import { SITE_URL } from '@/lib/site';
 
@@ -27,6 +28,7 @@ export default async function VenuePage({ params }) {
   const v = getVenue(slug);
   if (!v) notFound();
   const price = priceLabel(v);
+  const kidFit = kidFitInfo(v);
   const nearby = getVenuesByCity(citySlug(v.city)).filter((x) => x.slug !== slug).slice(0, 6);
 
   const jsonLd = {
@@ -104,11 +106,17 @@ export default async function VenuePage({ params }) {
           ) : null}
           {price ? <span> · {price}</span> : null}
         </p>
+        {kidFit ? (
+          <p className="kidfit-line">
+            <KidFitMeter info={kidFit} />
+          </p>
+        ) : null}
         {v.partyDetails || v.fromPrice ? (
           <section className="party-box">
             <h2>Party package info</h2>
             {v.fromPrice ? <p className="party-from">Packages from ${v.fromPrice}</p> : null}
             {v.partyDetails ? <p>{v.partyDetails}</p> : null}
+            {kidFit ? <p className="kidfit-note">🎈 {kidFit.title}.</p> : null}
           </section>
         ) : null}
         <section>
