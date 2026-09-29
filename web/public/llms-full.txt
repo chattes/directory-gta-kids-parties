@@ -1,0 +1,943 @@
+# Toronto Birthday Parties — Full Venue Catalogue
+
+> Complete machine-readable catalogue of 92 verified kids birthday party venues across the GTA. Updated 2026-09-29. See https://www.torontobirthdayparties.com/llms.txt for the site index.
+
+## Toronto (13 venues)
+
+### Artventures Toronto Parliament
+- URL: https://www.torontobirthdayparties.com/venues/artventures-toronto-parliament
+- Type: Children's party service, Art cafe, Art center, Ceramic manufacturer, Children's party buffet, Art studio, Party equipment rental service, Party store, Pottery store
+- Location: 557 Parliament St, Toronto, ON M4X 1P7, Canada
+- Google rating: 4.9/5 from 216 reviews
+- Phone: +18332400310
+- Website: https://www.artventuresstudios.com/
+- Kid-fit score: 1/5
+
+### Bibbity Bobbity Princess Parties
+- URL: https://www.torontobirthdayparties.com/venues/bibbity-bobbity-princess-parties
+- Type: Children's party service
+- Location: 1402 Queen St E c3, Toronto, ON M4L 1C9, Canada
+- Google rating: 5/5 from 281 reviews
+- Phone: +16479489551
+- Website: http://bibbitybobbityprincessparties.com/
+- Kid-fit score: 5/5
+
+### Centreville Amusement Park
+- URL: https://www.torontobirthdayparties.com/venues/centreville-amusement-park
+- Type: Amusement park, Amusement center, Park, Tourist attraction
+- Location: 9 Queens Quay W, Toronto, ON M5J 2H3, Canada
+- Google rating: 4.4/5 from 6612 reviews
+- Birthday party packages from $695 CAD
+- Package details: Packages from $695 · up to 15 kids
+- Phone: +14162030405
+- Website: http://centreisland.ca/
+- Kid-fit score: 3/5
+
+### Freckles World Children's Party Entertainment | Toronto
+- URL: https://www.torontobirthdayparties.com/venues/freckles-world-children-s-party-entertainment-toronto
+- Type: Children's party service, Balloon artist, Entertainment agency, Service establishment, Event management company, Party planner
+- Location: 
+- Google rating: 4.9/5 from 199 reviews
+- Birthday party packages from $299 CAD
+- Package details: Packages from $299
+- Phone: +16477824960
+- Website: http://www.frecklesworld.com/?utm_source=google&utm_medium=oragnic&utm_campaign=gmb
+- Kid-fit score: 5/5
+
+### Jump for Joy Play Centre
+- URL: https://www.torontobirthdayparties.com/venues/jump-for-joy-play-centre
+- Type: Indoor playground, Children's party service
+- Location: 1472 Danforth Ave, Toronto, ON M4J 1N4, Canada
+- Google rating: 4.9/5 from 397 reviews
+- Birthday party packages from $695 CAD
+- Package details: Packages from $695 · up to 15 kids · 2 hours
+- Phone: +14169106522
+- Website: https://jumpforjoyplaycentre.ca/
+- Kid-fit score: 5/5
+
+### Kidnasium Lawrence Park
+- URL: https://www.torontobirthdayparties.com/venues/kidnasium-lawrence-park
+- Type: Indoor playground, Children's party service, Gym, Recreation center
+- Location: 1660 Avenue Road (Lower Level, Toronto, ON M5M 3X9, Canada
+- Google rating: 4.3/5 from 189 reviews
+- Phone: +14167875437
+- Website: http://kidnasium.ca/
+- Kid-fit score: 5/5
+
+### Kids Fun Town
+- URL: https://www.torontobirthdayparties.com/venues/kids-fun-town
+- Type: Indoor playground, Party planner
+- Location: 2071 Danforth Ave, Toronto, ON M4C 1J8, Canada
+- Google rating: 4.7/5 from 514 reviews
+- Birthday party packages from $499 CAD
+- Package details: Packages from $499 · up to 10 kids · 2 hours
+- Phone: +14162777689
+- Website: https://kidsfuntown.ca/
+- Kid-fit score: 5/5
+
+### Krafty Kids | Corporate Holiday Parties & Creative Kids’ Events
+- URL: https://www.torontobirthdayparties.com/venues/krafty-kids-corporate-holiday-parties-creative-kids-events
+- Type: Children's party service, Art studio, Entertainer, Event planner, Party planner
+- Location: 1920 Avenue Rd, Toronto, ON M3H 1Y5, Canada
+- Google rating: 5/5 from 241 reviews
+- Package details: up to 20 kids · 1 hour
+- Phone: +14166057364
+- Website: http://www.kraftykidswithsarah.com/
+- Kid-fit score: 5/5
+
+### Levelup Virtual Reality (VR) Arcade | Events, Parties, & Team Building
+- URL: https://www.torontobirthdayparties.com/venues/levelup-virtual-reality-vr-arcade-events-parties-team-building
+- Type: Video arcade, Adventure sports center, Amusement center, Bar, Event planner, Event venue, Flight school, Laser tag center, Tourist attraction
+- Location: 661 Yonge St Lower Level, Toronto, ON M4Y 1Z9, Canada
+- Google rating: 4.9/5 from 1874 reviews
+- Phone: +18335383587
+- Website: https://www.levelupreality.ca/toronto/?UTM_source=GMB_listing&UTM_medium=organic
+- Kid-fit score: 2/5
+
+### Little Jingle Beans Inc.
+- URL: https://www.torontobirthdayparties.com/venues/little-jingle-beans-inc
+- Type: Entertainer, Children's party service, Preschool
+- Location: 99 Silver Birch Avenue (lower level, Toronto, ON M4E 3L3, Canada
+- Google rating: 4.9/5 from 359 reviews
+- Birthday party packages from $225 CAD
+- Package details: Packages from $225 · up to 15 kids · 30 minutes
+- Phone: +14166270805
+- Website: http://www.littlejinglebeans.com/
+- Kid-fit score: 5/5
+
+### Magic Moments Playground & Birthday Parties
+- URL: https://www.torontobirthdayparties.com/venues/magic-moments-playground-birthday-parties
+- Type: Indoor playground, Children's amusement center, Children's party service, Event venue
+- Location: 1000 Gerrard St E Unit D13, Toronto, ON M4M 3G6, Canada
+- Google rating: 4.9/5 from 348 reviews
+- Birthday party packages from $399 CAD
+- Package details: Packages from $399 · up to 24 kids · 2 hours
+- Phone: +14379078990
+- Website: http://www.magicmomentsplay.ca/
+- Kid-fit score: 5/5
+
+### 🥇 PartyTO | Children's entertainers, Balloons, Bouncy Castle, Photobooth rentals in Toronto
+- URL: https://www.torontobirthdayparties.com/venues/partyto-children-s-entertainers-balloons-bouncy-castle-photobooth-rentals-in-toronto
+- Type: Entertainer, Artist, Balloon artist, Children's party service, Service establishment, Party planner
+- Location: 
+- Google rating: 4.9/5 from 196 reviews
+- Package details: up to 24 kids
+- Phone: +16478125622
+- Website: https://partyto.ca/
+- Kid-fit score: 4/5
+
+### The Rec Room Roundhouse
+- URL: https://www.torontobirthdayparties.com/venues/the-rec-room-roundhouse
+- Type: Amusement center, Restaurant, Bar, Event venue, Pool billard club, Video arcade
+- Location: 255 Bremner Blvd, Toronto, ON M5V 3L9, Canada
+- Google rating: 4/5 from 9289 reviews
+- Package details: up to 40 kids
+- Phone: +14168150086
+- Website: https://www.therecroom.com/toronto-roundhouse?utm_source=google-my-business_TorontoRoundhouse&utm_medium=profile&utm_campaign=owned_media
+- Kid-fit score: 2/5
+
+## Mississauga (12 venues)
+
+### Air Riderz Mississauga - Kids Indoor Playground & Birthday Party Place
+- URL: https://www.torontobirthdayparties.com/venues/air-riderz-mississauga-kids-indoor-playground-birthday-party-place
+- Type: Children's amusement center, Amusement center, Amusement park, Indoor playground, Children's party service, Event venue, Recreation center
+- Location: 3600 Ridgeway Dr Unit 4 & 5, Mississauga, ON L5L 0B4, Canada
+- Google rating: 4.4/5 from 3542 reviews
+- Birthday party packages from $320 CAD
+- Package details: Packages from $320 · up to 20 kids · 1 hour
+- Phone: +19058207500
+- Website: https://www.airriderz.com/mississauga/?utm_source=gmb&utm_medium=organic&utm_campaign=gmb
+- Kid-fit score: 2/5
+
+### Amazing Fun Park
+- URL: https://www.torontobirthdayparties.com/venues/amazing-fun-park
+- Type: Children's amusement center, Children's party service, Indoor playground
+- Location: 1325 Eglinton Ave E #1, Mississauga, ON L4W 4L9, Canada
+- Google rating: 4.6/5 from 417 reviews
+- Birthday party packages from $499 CAD
+- Package details: Packages from $499 · up to 10 kids · 2 hours
+- Phone: +19052127444
+- Website: https://amazingfunpark.ca/
+- Kid-fit score: 5/5
+
+### Funday! Family Centre & Indoor Playground
+- URL: https://www.torontobirthdayparties.com/venues/funday-family-centre-indoor-playground
+- Type: Amusement center, Indoor playground, Cafe, Children's camp, Children's party service, Coffee shop, Event venue, Recreation center, Toy store
+- Location: 1224 Dundas St E Unit 26, Mississauga, ON L4Y 4A2, Canada
+- Google rating: 4.8/5 from 889 reviews
+- Package details: 2 hours
+- Phone: +16472127433
+- Website: https://www.thefunday.ca/
+- Kid-fit score: 4/5
+
+### Happy Kingdom Dundas
+- URL: https://www.torontobirthdayparties.com/venues/happy-kingdom-dundas
+- Type: Indoor playground
+- Location: 3025 Lenworth Dr, Mississauga, ON L4X 2G3, Canada
+- Google rating: 4.7/5 from 769 reviews
+- Phone: +13652309177
+- Website: https://happykingdomdundas.ca/
+- Kid-fit score: 4/5
+
+### Jumbaloo Playgrounds
+- URL: https://www.torontobirthdayparties.com/venues/jumbaloo-playgrounds
+- Type: Indoor playground
+- Location: 3135 Argentia Rd Unit 3, Mississauga, ON L5N 8E1, Canada
+- Google rating: 4.8/5 from 5523 reviews
+- Package details: up to 20 kids · 2 hours
+- Phone: +19057853990
+- Website: https://jumbaloo.com/?utm_source=GMBPage&utm_medium=GMB&utm_campaign=GMBClicks
+- Kid-fit score: 4/5
+
+### Kids Empire Heartland Mississauga
+- URL: https://www.torontobirthdayparties.com/venues/kids-empire-heartland-mississauga
+- Type: Indoor playground
+- Location: 600 Matheson Blvd W, Mississauga, ON L5R 4B8, Canada
+- Google rating: 4.6/5 from 193 reviews
+- Package details: up to 26 kids
+- Phone: +12893260909
+- Website: https://www.kidsempire.ca/
+- Kid-fit score: 5/5
+
+### Kidsapia
+- URL: https://www.torontobirthdayparties.com/venues/kidsapia
+- Type: Amusement center, Indoor playground
+- Location: 5100 Erin Mills Pkwy Unit D13/14, Mississauga, ON L5M 4Z5, Canada
+- Google rating: 4.4/5 from 1229 reviews
+- Phone: +12899979177
+- Website: https://www.kidsapia.ca/
+- Kid-fit score: 5/5
+
+### Kidsports Indoor Playground Mississauga
+- URL: https://www.torontobirthdayparties.com/venues/kidsports-indoor-playground-mississauga
+- Type: Indoor playground
+- Location: 4500 Dixie Rd, Mississauga, ON L4W 1V7, Canada
+- Google rating: 4.3/5 from 2192 reviews
+- Birthday party packages from $399 CAD
+- Package details: Packages from $399 · up to 30 kids · 2 hours
+- Phone: +19056249400
+- Website: https://www.kidsportsindoorplayground.com/?utm_source=google&utm_medium=gmbClick&utm_campaign=gmb-click&utm_id=click
+- Kid-fit score: 5/5
+
+### Kidz at Play
+- URL: https://www.torontobirthdayparties.com/venues/kidz-at-play
+- Type: Indoor playground, Event venue
+- Location: 6991 Millcreek Dr Unit 2, Mississauga, ON L5N 6B8, Canada
+- Google rating: 4.8/5 from 398 reviews
+- Phone: +14169947406
+- Website: http://www.kidzatplay.ca/
+- Kid-fit score: 4/5
+
+### Mighty Jungle Indoor Playground
+- URL: https://www.torontobirthdayparties.com/venues/mighty-jungle-indoor-playground
+- Type: Amusement center, Indoor playground
+- Location: 3100 Ridgeway Dr #19, Mississauga, ON L5L 5M5, Canada
+- Google rating: 4.5/5 from 445 reviews
+- Birthday party packages from $310 CAD
+- Package details: Packages from $310 · Fri–Sun $350 · up to 10 kids · 2 hours
+- Phone: +12899970644
+- Website: http://www.themightyjungle.ca/
+- Kid-fit score: 5/5
+
+### Playcious Mississauga
+- URL: https://www.torontobirthdayparties.com/venues/playcious-mississauga
+- Type: Indoor playground
+- Location: 75 Courtneypark Dr W Unit 2b, Mississauga, ON L5W 0E3, Canada
+- Google rating: 4.7/5 from 1093 reviews
+- Package details: 1 hour
+- Phone: +19059010421
+- Website: https://playcious.com/mississauga/
+- Kid-fit score: 4/5
+
+### The Rec Room Square One
+- URL: https://www.torontobirthdayparties.com/venues/the-rec-room-square-one
+- Type: Amusement center, Archery range, Bar, Bowling alley, Event venue, Live music venue, Pool billard club, Restaurant, Sports bar, Video arcade
+- Location: 100 City Centre Dr #1-705, Mississauga, ON L5B 2C9, Canada
+- Google rating: 4/5 from 6408 reviews
+- Package details: up to 40 kids
+- Phone: +12893410611
+- Website: https://www.therecroom.com/mississauga-squareone?utm_source=google-my-business_MississaugaSquareOne&utm_medium=profile&utm_campaign=owned_media
+- Kid-fit score: 1/5
+
+## Whitby (12 venues)
+
+### Aspire Climbing Whitby
+- URL: https://www.torontobirthdayparties.com/venues/aspire-climbing-whitby
+- Type: Recreation center, Fitness center, Gym, Rock climbing gym
+- Location: 1400 Victoria St E Unit 4, Whitby, ON L1N 0M2, Canada
+- Google rating: 4.5/5 from 283 reviews
+- Package details: 2 hours · ages 6–12
+- Phone: +19054309813
+- Website: https://www.aspireclimbing.com/whitby
+- Kid-fit score: 2/5
+
+### Bloom & Grow Play Space
+- URL: https://www.torontobirthdayparties.com/venues/bloom-grow-play-space
+- Type: Indoor playground
+- Location: 72 Baldwin St N #204, Whitby, ON L1M 1A3, Canada
+- Google rating: 5/5 from 31 reviews
+- Birthday party packages from $575 CAD
+- Package details: Packages from $575 · up to 10 kids
+- Phone: +19054259511
+- Website: https://www.bloomandgrowplayspace.ca/
+- Kid-fit score: 4/5
+
+### Chuck E. Cheese Whitby
+- URL: https://www.torontobirthdayparties.com/venues/chuck-e-cheese-whitby
+- Type: Indoor playground, Amusement center, Children's party service, Family restaurant, Children's amusement center, Pizza delivery, Pizza restaurant, Pizza Takeout, Video arcade
+- Location: 75 Consumers Dr Bldg. J, Whitby, ON L1N 9S2, Canada
+- Google rating: 4.1/5 from 1898 reviews
+- Birthday party packages from $100 CAD
+- Package details: Packages from $100 · 2 hours
+- Phone: +19056652142
+- Website: https://www.chuckecheese.com/whitby-on
+- Kid-fit score: 5/5
+
+### Crock A Doodle Whitby
+- URL: https://www.torontobirthdayparties.com/venues/crock-a-doodle-whitby
+- Type: Art school, Art center, Children's party service, Event planner, Event venue, Painting studio, Pottery store
+- Location: 30 Broadleaf Ave, Whitby, ON L1R 0B5, Canada
+- Google rating: 4.7/5 from 346 reviews
+- Phone: +19054251920
+- Website: https://crockadoodle.com/whitby
+- Kid-fit score: 3/5
+
+### Dish Play Whitby
+- URL: https://www.torontobirthdayparties.com/venues/dish-play-whitby
+- Type: Event venue
+- Location: 12 Stanley Ct Unit 1, Whitby, ON L1N 8P9, Canada
+- Google rating: 4.7/5 from 46 reviews
+- Birthday party packages from $580 CAD
+- Package details: Packages from $580 · up to 20 kids · 2 hours
+- Phone: +19054448484
+- Website: http://www.dishplay.ca/
+- Kid-fit score: 3/5
+
+### Flying Squirrel Trampoline Park Whitby
+- URL: https://www.torontobirthdayparties.com/venues/flying-squirrel-trampoline-park-whitby
+- Type: Indoor playground, Children's amusement center, Children's party service, Amusement center, Recreation center, Video arcade
+- Location: 1400 Victoria St E, Whitby, ON L1N 0M2, Canada
+- Google rating: 4.3/5 from 2024 reviews
+- Package details: 2.5 hours
+- Phone: +12897325327
+- Website: https://flyingsquirrelsports.ca/whitby-ontario/
+- Kid-fit score: 4/5
+
+### Inflatable Bouncy Castles Whitby
+- URL: https://www.torontobirthdayparties.com/venues/inflatable-bouncy-castles-whitby
+- Type: Party equipment rental service, Bouncy castle hire, Children's party service
+- Location: 201 White Oaks Ct, Whitby, ON L1P 1A1, Canada
+- Google rating: 5/5 from 83 reviews
+- Phone: +19059262716
+- Website: https://inflatablebouncycastles.ca/
+- Kid-fit score: 5/5
+
+### Jolly Bubble Whitby
+- URL: https://www.torontobirthdayparties.com/venues/jolly-bubble-whitby
+- Type: Indoor playground
+- Location: Front, 1624 Dundas St E Unit 1, Whitby, ON L1N 2K8, Canada
+- Google rating: 4.8/5 from 114 reviews
+- Birthday party packages from $480 CAD
+- Package details: Packages from $480 · weekends $600 · up to 14 kids · 2 hours
+- Phone: +19054936819
+- Website: https://thejollybubble.com/whitby-home/
+- Kid-fit score: 5/5
+
+### Planet Gymnastics Whitby
+- URL: https://www.torontobirthdayparties.com/venues/planet-gymnastics-whitby
+- Type: Gymnastics center
+- Location: #1a, 105 Industrial Dr, Whitby, ON L1N 5Z9, Canada
+- Google rating: 4.8/5 from 91 reviews
+- Birthday party packages from $300 CAD
+- Package details: Packages from $300 · up to 20 kids
+- Phone: +19056651990
+- Website: https://planetgymnastics.ca/
+- Kid-fit score: 3/5
+
+### Playdium Whitby
+- URL: https://www.torontobirthdayparties.com/venues/playdium-whitby
+- Type: Amusement center, Bar, Bowling alley, Event venue, High ropes course, Restaurant, Video arcade
+- Location: 75 Consumers Dr Building V, Whitby, ON L1N 9S2, Canada
+- Google rating: 4.4/5 from 1603 reviews
+- Phone: +12898072848
+- Website: https://www.playdium.com/whitby?utm_source=google-my-business_Whitby&utm_medium=profile&utm_campaign=owned_media
+- Kid-fit score: 1/5
+
+### Reptilia Whitby
+- URL: https://www.torontobirthdayparties.com/venues/reptilia-whitby
+- Type: Event venue, Children's camp, Education center, Zoo
+- Location: 1400 Victoria St E, Whitby, ON L1N 0M2, Canada
+- Google rating: 4.5/5 from 779 reviews
+- Birthday party packages from $322 CAD
+- Package details: Packages from $322 · weekends $379 · up to 20 kids · 1.5 hours
+- Phone: +19054939537
+- Website: https://reptilia.org/admissions/
+- Kid-fit score: 4/5
+
+### Sky Zone Trampoline Park Whitby
+- URL: https://www.torontobirthdayparties.com/venues/sky-zone-trampoline-park-whitby
+- Type: Indoor playground, Children's amusement center, Children's party service, Event venue, Amusement center, Party planner, Recreation center, Sports complex, Video arcade
+- Location: 240 S Blair St, Whitby, ON L1N 0G3, Canada
+- Google rating: 4.4/5 from 2896 reviews
+- Phone: +12892756502
+- Website: https://www.skyzone.com/ca-whitby/
+- Kid-fit score: 4/5
+
+## Scarborough (11 venues)
+
+### Aerosports Parks - Scarborough/Toronto
+- URL: https://www.torontobirthdayparties.com/venues/aerosports-parks-scarborough-toronto
+- Type: Children's party service, Children's amusement center, Amusement center, Event venue, Go-karting venue, Indoor golf course, Indoor playground, Laser tag center, Party planner
+- Location: 1120 Birchmount Rd, Scarborough, ON M1K 5G4, Canada
+- Google rating: 4.8/5 from 2048 reviews
+- Package details: up to 12 kids · ages 4–13
+- Phone: +12894545555
+- Website: https://www.aerosportsparks.ca/scarborough
+- Kid-fit score: 4/5
+
+### Creative Playzone
+- URL: https://www.torontobirthdayparties.com/venues/creative-playzone
+- Type: Indoor playground
+- Location: 2900 Warden Ave. Unit116A, Scarborough, ON M1W 2S8, Canada
+- Google rating: 4.8/5 from 326 reviews
+- Birthday party packages from $499 CAD
+- Package details: Packages from $499 · up to 10 kids · 2.5 hours
+- Phone: +14167538828
+- Website: https://creativeplayzone.com/
+- Kid-fit score: 4/5
+
+### Giggles Playland Inc
+- URL: https://www.torontobirthdayparties.com/venues/giggles-playland-inc
+- Type: Children's amusement center, Amusement center, Balloon store, Indoor playground, Children's club, Children's party service, Event venue, Party planner, Video arcade
+- Location: 70 Milner Ave, Scarborough, ON M1S 3P8, Canada
+- Google rating: 4.5/5 from 321 reviews
+- Phone: +16479247529
+- Website: http://gigglesplayland.ca/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=4570173344780076558
+- Kid-fit score: 5/5
+
+### Happy Kingdom Sheppard
+- URL: https://www.torontobirthdayparties.com/venues/happy-kingdom-sheppard
+- Type: Indoor playground
+- Location: 4466 Sheppard Ave E, Scarborough, ON M1S 2E3, Canada
+- Google rating: 4.4/5 from 225 reviews
+- Phone: +14163966996
+- Website: https://happykingdomsheppard.ca/
+- Kid-fit score: 4/5
+
+### Happy Planet Kids Indoor Playground & Party
+- URL: https://www.torontobirthdayparties.com/venues/happy-planet-kids-indoor-playground-party
+- Type: Children's party service, Cafe, Indoor playground, Toy store
+- Location: 5651 Steeles Ave E #15-16, Scarborough, ON M1V 5P6, Canada
+- Google rating: 4.8/5 from 370 reviews
+- Phone: +14162996630
+- Website: https://www.happyplanetca.com/sc
+- Kid-fit score: 4/5
+
+### Kart Town Playground and Birthdays
+- URL: https://www.torontobirthdayparties.com/venues/kart-town-playground-and-birthdays
+- Type: Children's amusement center, Amusement center, Bouncy castle hire, Children hall, Children's party service, Indoor playground, Playground, Video arcade, Video game store
+- Location: Inside Parkway Mall, 85 Ellesmere Rd Unit 102, Scarborough, ON M1R 4B8, Canada
+- Google rating: 4.8/5 from 861 reviews
+- Package details: up to 14 kids
+- Phone: +14376605278
+- Website: https://karttown.ca/?utm_campaign=gmb
+- Kid-fit score: 4/5
+
+### Party Warehouse Outlet & Classic Event Decor
+- URL: https://www.torontobirthdayparties.com/venues/party-warehouse-outlet-classic-event-decor
+- Type: Party planner, Balloon artist, Balloon store, Furniture rental service, Interior designer, Party equipment rental service, Party store, Wedding planner, Wedding service, Wedding store
+- Location: 1401 Huntingwood Dr Unit 5, Scarborough, ON M1S 3J1, Canada
+- Google rating: 4.2/5 from 218 reviews
+- Phone: +14164985677
+- Website: http://www.partywarehouseoutlet.com/
+- Kid-fit score: 3/5
+
+### The Play Scape
+- URL: https://www.torontobirthdayparties.com/venues/the-play-scape
+- Type: Video arcade, Bowling alley, Fast food restaurant, Recreation center, Restaurant
+- Location: 30 Dean Park Rd Unit 21, Scarborough, ON M1B 3H1, Canada
+- Google rating: 4.7/5 from 269 reviews
+- Package details: From $23.99 per kid · up to 16 kids · 1 hour
+- Phone: +19059030530
+- Website: https://theplayscape.ca/
+- Kid-fit score: 5/5
+
+### Trapped Scarborough - Escape Room and RC Games Lounge
+- URL: https://www.torontobirthdayparties.com/venues/trapped-scarborough-escape-room-and-rc-games-lounge
+- Type: Party planner, Amusement center, Event venue, Escape room center
+- Location: 4410 Kingston Rd Unit 2001, Scarborough, ON M1E 2N5, Canada
+- Google rating: 4.9/5 from 411 reviews
+- Phone: +14162842525
+- Website: https://trapped.com/locations/scarborough/book
+- Kid-fit score: 1/5
+
+### Vincent Magician for Birthday Parties - Strolling Magician - Magic Shows
+- URL: https://www.torontobirthdayparties.com/venues/vincent-magician-for-birthday-parties-strolling-magician-magic-shows
+- Type: Children's party service, Balloon artist, Magician, Entertainer, Entertainment agency, Event planner, Preschool, Singing telegram service, Wedding planner, Wedding service
+- Location: 38 Lee Centre Dr, Scarborough, ON M1H 3J7, Canada
+- Google rating: 4.9/5 from 228 reviews
+- Phone: +14164380215
+- Website: http://torontosupermagician.com/
+- Kid-fit score: 3/5
+
+### ZAK Sports Cricket
+- URL: https://www.torontobirthdayparties.com/venues/zak-sports-cricket
+- Type: Indoor playground, Baseball field, Batting cage center, Cricket shop, Fitness center, Playground, Softball field, Sports club, Sports complex
+- Location: 1160 Birchmount Rd Unit 7, Scarborough, ON M1P 2B7, Canada
+- Google rating: 4.8/5 from 223 reviews
+- Phone: +16479792386
+- Website: http://www.zaksports.ca/
+- Kid-fit score: 1/5
+
+## Vaughan (9 venues)
+
+### Another World VR Arena Vaughan
+- URL: https://www.torontobirthdayparties.com/venues/another-world-vr-arena-vaughan
+- Type: Amusement center
+- Location: 2104 Hwy 7 Unit# 3, Vaughan, ON L4K 2S9, Canada
+- Google rating: 5/5 from 194 reviews
+- Package details: 2 hours
+- Phone: +12899913101
+- Website: http://vaughan.another-world.com/
+- Kid-fit score: 2/5
+
+### BenTastic Magic
+- URL: https://www.torontobirthdayparties.com/venues/bentastic-magic
+- Type: Magician
+- Location: 54 Timberwolf Crescent, Vaughan, ON L4H 2W2, Canada
+- Google rating: 5/5 from 231 reviews
+- Phone: +16474240361
+- Website: http://www.magicshowtoronto.com/
+- Kid-fit score: 5/5
+
+### Glama Gal Kids Spa Vaughan
+- URL: https://www.torontobirthdayparties.com/venues/glama-gal-kids-spa-vaughan
+- Type: Event venue, Children's party service, Day spa, Spa
+- Location: 665 Millway Ave Unit 14, Vaughan, ON L4K 3T8, Canada
+- Google rating: 4.8/5 from 223 reviews
+- Phone: +19054824435
+- Website: http://www.glamagalkidspa.com/
+- Kid-fit score: 4/5
+
+### LEGOLAND Discovery Centre Toronto
+- URL: https://www.torontobirthdayparties.com/venues/legoland-discovery-centre-toronto
+- Type: Children's amusement center, Tourist attraction
+- Location: 1 Bass Pro Mills Dr, Vaughan, ON L4K 5W4, Canada
+- Google rating: 4/5 from 7157 reviews
+- Birthday party packages from $800 CAD
+- Package details: Packages from $800 · up to 50 kids · 3 hours
+- Phone: +19057617066
+- Website: https://www.legolanddiscoverycentre.com/toronto/?utm_source=local-listing&utm_medium=organic&utm_campaign=homepage
+- Kid-fit score: 3/5
+
+### Pixel Pulse Playzone
+- URL: https://www.torontobirthdayparties.com/venues/pixel-pulse-playzone
+- Type: Indoor playground, Event venue, Amusement center
+- Location: 960 Edgeley Blvd #2, Vaughan, ON L4K 4V4, Canada
+- Google rating: 4.1/5 from 624 reviews
+- Birthday party packages from $399 CAD
+- Package details: Packages from $399 · 1 hour
+- Phone: +19057602922
+- Website: https://www.pixelpulseplay.ca/
+- Kid-fit score: 4/5
+
+### Playtopia
+- URL: https://www.torontobirthdayparties.com/venues/playtopia
+- Type: Indoor playground, Amusement center, Children's amusement center, Children's party service, Event planner, Party planner, Video arcade
+- Location: 1681 Langstaff Rd #14-16, Vaughan, ON L4K 5T3, Canada
+- Google rating: 4.2/5 from 1373 reviews
+- Phone: +19056952511
+- Website: http://playtopia.ca/
+- Kid-fit score: 4/5
+
+### Sandbox VR
+- URL: https://www.torontobirthdayparties.com/venues/sandbox-vr
+- Type: Children's amusement center, Amusement center, Event venue, Tourist attraction, Video arcade
+- Location: 7621 Weston Rd Ste 135, Vaughan, ON L4L 9J9, Canada
+- Google rating: 5/5 from 1126 reviews
+- Phone: +19056059533
+- Website: https://sandboxvr.com/ca/toronto/vaughan?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=vaughan
+- Kid-fit score: 1/5
+
+### Space Center Playground
+- URL: https://www.torontobirthdayparties.com/venues/space-center-playground
+- Type: Children's club
+- Location: 688 Chrislea Rd, Vaughan, ON L4L 8K9, Canada
+- Google rating: 4.8/5 from 665 reviews
+- Phone: +14372868801
+- Website: https://space-center.ca/
+- Kid-fit score: 4/5
+
+### Space Centre Vaughan
+- URL: https://www.torontobirthdayparties.com/venues/space-centre-vaughan
+- Type: Children's club
+- Location: 688 Chrislea Rd, Vaughan, ON L4L 8K9, Canada
+- Google rating: 4.4/5 from 251 reviews
+- Phone: +14372868461
+- Website: https://www.space-center.ca/
+- Kid-fit score: 5/5
+
+## North York (7 venues)
+
+### Active Kids Zone
+- URL: https://www.torontobirthdayparties.com/venues/active-kids-zone
+- Type: Children's amusement center, Children's camp, Party planner
+- Location: 951 Alness St, North York, ON M3J 2J1, Canada
+- Google rating: 4.5/5 from 320 reviews
+- Phone: +14166505060
+- Website: http://www.activekidszone.com/
+- Kid-fit score: 5/5
+
+### Alpha Kidz Indoor Playground
+- URL: https://www.torontobirthdayparties.com/venues/alpha-kidz-indoor-playground
+- Type: Indoor playground, Children's party service
+- Location: 1140 Sheppard Ave W Unit 1, North York, ON M3K 2A2, Canada
+- Google rating: 4.6/5 from 199 reviews
+- Birthday party packages from $459 CAD
+- Package details: Packages from $459 · up to 50 kids
+- Phone: +14163981119
+- Website: https://alphakidzplayground.ca/
+- Kid-fit score: 4/5
+
+### Extreme Fun Indoor Playground
+- URL: https://www.torontobirthdayparties.com/venues/extreme-fun-indoor-playground
+- Type: Indoor playground, Children's party service, Party planner
+- Location: 186 Bartley Dr, North York, ON M4A 1E1, Canada
+- Google rating: 4.7/5 from 293 reviews
+- Birthday party packages from $345 CAD
+- Package details: Packages from $345 · shared party $15 per child (weekdays) · up to 50 kids · 2 hours · ages 1–10
+- Phone: +14167578777
+- Website: http://www.extremefun.ca/
+- Kid-fit score: 5/5
+
+### Jolly Bubble North York
+- URL: https://www.torontobirthdayparties.com/venues/jolly-bubble-north-york
+- Type: Indoor playground, Children's amusement center
+- Location: 900 Don Mills Rd. Unit 8, North York, ON M3C 1V6, Canada
+- Google rating: 4.7/5 from 501 reviews
+- Birthday party packages from $480 CAD
+- Package details: Packages from $480 · up to 15 kids · 2 hours
+- Phone: +14164478889
+- Website: https://www.thejollybubble.com/
+- Kid-fit score: 5/5
+
+### Liliput Playhouse
+- URL: https://www.torontobirthdayparties.com/venues/liliput-playhouse
+- Type: Indoor playground, After school program, Art center, Children's camp, Children's party service, Summer camp organizer
+- Location: 1912 Avenue Rd Unit 200, North York, ON M5M 0B4, Canada
+- Google rating: 4.7/5 from 369 reviews
+- Birthday party packages from $599 CAD
+- Package details: Packages from $599 · 2 hours
+- Phone: +14162567529
+- Website: http://liliput.ca/
+- Kid-fit score: 5/5
+
+### Playdium Fairview
+- URL: https://www.torontobirthdayparties.com/venues/playdium-fairview
+- Type: Children's amusement center, Amusement center, Bowling alley, Children's party service, Event venue, Family restaurant, Indoor playground, Restaurant, Video arcade
+- Location: 1800 Sheppard Ave E unit y007, North York, ON M2J 5A7, Canada
+- Google rating: 4.4/5 from 448 reviews
+- Package details: 1 hour
+- Phone: +14372945700
+- Website: https://www.playdium.com/fairview?utm_source=google-my-business_Fairview&utm_medium=profile&utm_campaign=owned_media
+- Kid-fit score: 2/5
+
+### The Bubble Jump Park - Toronto
+- URL: https://www.torontobirthdayparties.com/venues/the-bubble-jump-park-toronto
+- Type: Amusement center
+- Location: 65 Orfus Rd Unit A, North York, ON M6A 1L7, Canada
+- Google rating: 4.6/5 from 1655 reviews
+- Phone: +14164107469
+- Website: https://www.the-bubble.ca/
+- Kid-fit score: 4/5
+
+## Oakville (6 venues)
+
+### Aerosports Trampoline Parks - Oakville-Mississauga
+- URL: https://www.torontobirthdayparties.com/venues/aerosports-trampoline-parks-oakville-mississauga
+- Type: Children's amusement center, Children's party service, Event planner, Event venue, Indoor playground, Party planner, Recreation center, Sports complex, Summer camp organizer
+- Location: 2679 Bristol Cir, Oakville, ON L6H 6Z8, Canada
+- Google rating: 4.7/5 from 5596 reviews
+- Package details: up to 150 kids · ages 4–13
+- Phone: +19058292989
+- Website: https://www.aerosportsparks.ca/oakville?utm_source=google&utm_medium=organic&utm_campaign=gmboak
+- Kid-fit score: 3/5
+
+### Another World VR Arena Oakville
+- URL: https://www.torontobirthdayparties.com/venues/another-world-vr-arena-oakville
+- Type: Recreation center
+- Location: 341 Kerr St Ste 212, Oakville, ON L6K 3B7, Canada
+- Google rating: 5/5 from 234 reviews
+- Package details: 1 hour
+- Phone: +13659965991
+- Website: https://oakville.another-world.com/
+- Kid-fit score: 3/5
+
+### Artventures Oakville Lakeshore/Bronte
+- URL: https://www.torontobirthdayparties.com/venues/artventures-oakville-lakeshore-bronte
+- Type: Children's party service, Art cafe, Art center, Art school, Art supply store, Children's party buffet, Pottery classes, Paint store, Party planner, Pottery store
+- Location: 2359 Lakeshore Rd W, Oakville, ON L6L 1H4, Canada
+- Google rating: 4.9/5 from 784 reviews
+- Phone: +18332400310
+- Website: http://artventuresstudios.com/
+- Kid-fit score: 2/5
+
+### Crack Pot Studio
+- URL: https://www.torontobirthdayparties.com/venues/crack-pot-studio
+- Type: Children's party service, Art center, Children's camp, Art studio, Painting, Pottery classes
+- Location: 301 Robinson St, Oakville, ON L6J 1G7, Canada
+- Google rating: 4.9/5 from 218 reviews
+- Phone: +19053381358
+- Website: http://www.crackpotstudio.com/
+- Kid-fit score: 2/5
+
+### Funvilla Oakville
+- URL: https://www.torontobirthdayparties.com/venues/funvilla-oakville
+- Type: Indoor playground
+- Location: 77 Loyalist Trl, Oakville, ON L6H 3R4, Canada
+- Google rating: 4.8/5 from 241 reviews
+- Package details: up to 10 kids · 2.5 hours
+- Phone: +13657260147
+- Website: https://funvilla.ca/oakville/tickets/
+- Kid-fit score: 3/5
+
+### Playcious Oakville
+- URL: https://www.torontobirthdayparties.com/venues/playcious-oakville
+- Type: Children's amusement center, Amusement center, Cafeteria, Indoor playground, Children's cafe, Event planner, Event venue, Party planner, Playground, Rock climbing
+- Location: 3280 S Service Rd W Unit C4, Oakville, ON L6L 0B1, Canada
+- Google rating: 4.5/5 from 1118 reviews
+- Package details: 3 hours · ages 2–6
+- Phone: +19054656996
+- Website: https://www.playcious.com/oakville
+- Kid-fit score: 3/5
+
+## Brampton (5 venues)
+
+### Aerosports Brampton
+- URL: https://www.torontobirthdayparties.com/venues/aerosports-brampton
+- Type: Children's amusement center, Indoor playground, Children's party service
+- Location: 100 Westcreek Blvd, Brampton, ON L6T 5V7, Canada
+- Google rating: 4.3/5 from 2848 reviews
+- Birthday party packages from $280 CAD
+- Package details: Packages from $280 · 2 hours
+- Phone: +19057962376
+- Website: https://www.aerosportsbrampton.ca/
+- Kid-fit score: 5/5
+
+### Another World VR Arena Brampton
+- URL: https://www.torontobirthdayparties.com/venues/another-world-vr-arena-brampton
+- Type: Amusement center, Video arcade
+- Location: 239 Queen St E #4, Brampton, ON L6V 1V2, Canada
+- Google rating: 5/5 from 361 reviews
+- Package details: 2 hours
+- Phone: +17055005450
+- Website: https://brampton.another-world.com/buy
+- Kid-fit score: 2/5
+
+### GlowZone 360
+- URL: https://www.torontobirthdayparties.com/venues/glowzone-360
+- Type: Laser tag center, Miniature golf course, Video arcade
+- Location: 9446 McLaughlin Rd N, Brampton, ON L6X 4H9, Canada
+- Google rating: 4.5/5 from 1817 reviews
+- Package details: From $16.99 per child
+- Phone: +19054974569
+- Website: http://www.glowzone360.com/
+- Kid-fit score: 4/5
+
+### Happy Kingdom Brampton
+- URL: https://www.torontobirthdayparties.com/venues/happy-kingdom-brampton
+- Type: Children's amusement center, Indoor playground, Playground
+- Location: 150 West Dr Unit 105, Brampton, ON L6T 4P9, Canada
+- Google rating: 4.7/5 from 516 reviews
+- Phone: +19054601200
+- Website: http://www.happykingdombrampton.ca/
+- Kid-fit score: 3/5
+
+### Playdium Orion Gate
+- URL: https://www.torontobirthdayparties.com/venues/playdium-orion-gate
+- Type: Amusement center, Indoor playground, Bowling alley, Video arcade
+- Location: 20 Biscayne Crescent, Brampton, ON L6W 4S1, Canada
+- Google rating: 4/5 from 2256 reviews
+- Package details: 1 hour
+- Phone: +19057699070
+- Website: https://www.playdium.com/brampton?utm_source=google-my-business_Brampton&utm_medium=profile&utm_campaign=owned_media
+- Kid-fit score: 1/5
+
+## Concord (5 venues)
+
+### Air Riderz Adventure Park Vaughan
+- URL: https://www.torontobirthdayparties.com/venues/air-riderz-adventure-park-vaughan
+- Type: Indoor playground, Amusement park, Children's amusement center, Children's party service, Event venue, Recreation center, Summer camp organizer
+- Location: 570 Applewood Crescent #3, Concord, ON L4K 4B4, Canada
+- Google rating: 4.5/5 from 1605 reviews
+- Birthday party packages from $320 CAD
+- Package details: Packages from $320 · up to 12 kids · 1 hour
+- Phone: +19056957011
+- Website: https://www.airriderz.com/vaughan/
+- Kid-fit score: 3/5
+
+### FUNtastic Forest
+- URL: https://www.torontobirthdayparties.com/venues/funtastic-forest
+- Type: Indoor playground
+- Location: 14 Connie Crescent #12, Concord, ON L4K 2W8, Canada
+- Google rating: 4.5/5 from 676 reviews
+- Phone: +19057386386
+- Website: http://www.funtasticforest.ca/
+- Kid-fit score: 5/5
+
+### Jungle Land
+- URL: https://www.torontobirthdayparties.com/venues/jungle-land
+- Type: Indoor playground, Tourist attraction
+- Location: 1033 Edgeley Blvd, Concord, ON L4K 0H4, Canada
+- Google rating: 4.4/5 from 1514 reviews
+- Birthday party packages from $349 CAD
+- Package details: Packages from $349 · weekends $399 · up to 10 kids · 3 hours
+- Phone: +19057605565
+- Website: http://www.jungleland.ca/
+- Kid-fit score: 4/5
+
+### Never-Never Land Indoor Playground
+- URL: https://www.torontobirthdayparties.com/venues/never-never-land-indoor-playground
+- Type: Indoor playground, Balloon store, Children's camp, Children's amusement center, Event venue, Indoor lodging, Party planner, Party store
+- Location: 8520 Jane St #6, Concord, ON L4K 5A9, Canada
+- Google rating: 4.6/5 from 258 reviews
+- Phone: +19057611166
+- Website: http://neverneverland.co/
+- Kid-fit score: 5/5
+
+### Playcious Vaughan
+- URL: https://www.torontobirthdayparties.com/venues/playcious-vaughan
+- Type: Indoor playground, Amusement center, Cafeteria, Children's amusement center, Event planner, Event venue, Party planner, Playground
+- Location: 50A Caldari Rd, Concord, ON L4K 4N8, Canada
+- Google rating: 4.4/5 from 1874 reviews
+- Phone: +19056699996
+- Website: https://playcious.com/vaughan
+- Kid-fit score: 4/5
+
+## Markham (5 venues)
+
+### Doodoo Kids Playground
+- URL: https://www.torontobirthdayparties.com/venues/doodoo-kids-playground
+- Type: Indoor playground, Children's party service, Playground, Video arcade
+- Location: 70 Valleywood Dr Unit 103, Markham, ON L3R 4T5, Canada
+- Google rating: 4.3/5 from 413 reviews
+- Phone: +18662781836
+- Website: https://doodookids.ca/
+- Kid-fit score: 5/5
+
+### Funland Indoor Playground
+- URL: https://www.torontobirthdayparties.com/venues/funland-indoor-playground
+- Type: Indoor playground
+- Location: 5051 Hwy 7 Unit 1a, Markham, ON L3R 1N3, Canada
+- Google rating: 4.5/5 from 691 reviews
+- Package details: ages 1–13
+- Phone: +19058680888
+- Website: https://funlandplayground.ca/
+- Kid-fit score: 4/5
+
+### Markham Sports Dome Inc.
+- URL: https://www.torontobirthdayparties.com/venues/markham-sports-dome-inc
+- Type: Sports complex
+- Location: 5300 14th Ave, Markham, ON L3S 3K8, Canada
+- Google rating: 4.3/5 from 440 reviews
+- Phone: +12892127549
+- Website: http://www.markhamsportsdome.com/
+- Kid-fit score: 2/5
+
+### Playplex Game
+- URL: https://www.torontobirthdayparties.com/venues/playplex-game
+- Type: Indoor playground, Children's party service, Event venue, Amusement center, Recreation center
+- Location: 5328 Hwy 7 #2, Markham, ON L3P 1B9, Canada
+- Google rating: 4.9/5 from 387 reviews
+- Birthday party packages from $600 CAD
+- Package details: Packages from $600 · up to 18 kids · ages 6–8
+- Phone: +12895541869
+- Website: https://www.playplexgame.com/
+- Kid-fit score: 3/5
+
+### VR Escapism Markham - Escape Rooms & Arcades
+- URL: https://www.torontobirthdayparties.com/venues/vr-escapism-markham-escape-rooms-arcades
+- Type: Escape room center, Amusement center, Board game club, Video arcade
+- Location: 7500 Woodbine Ave #108, Markham, ON L3R 1A8, Canada
+- Google rating: 4.8/5 from 551 reviews
+- Phone: +18338522888
+- Website: https://www.vr-escapism.ca/
+- Kid-fit score: 2/5
+
+## Pickering (3 venues)
+
+### Fun Factory Play Cafe - Pickering
+- URL: https://www.torontobirthdayparties.com/venues/fun-factory-play-cafe-pickering
+- Type: Indoor playground, Cafe, Children's amusement center, Coffee shop, Event venue, Party planner
+- Location: 1420 Bayly St #15, Pickering, ON L1W 3R4, Canada
+- Google rating: 4.4/5 from 803 reviews
+- Birthday party packages from $399 CAD
+- Package details: Packages from $399 · up to 10 kids · 2.5 hours
+- Phone: +16478248389
+- Website: http://www.funfactoryplay.ca/
+- Kid-fit score: 5/5
+
+### Playtopia Pickering
+- URL: https://www.torontobirthdayparties.com/venues/playtopia-pickering
+- Type: Indoor playground
+- Location: 1899 Brock Rd Unit C5, Pickering, ON L1V 4H7, Canada
+- Google rating: 4.7/5 from 398 reviews
+- Package details: 6 hours
+- Phone: +19057444545
+- Website: https://pickering.playtopia.ca/
+- Kid-fit score: 4/5
+
+### TreeHouse ClubHouse
+- URL: https://www.torontobirthdayparties.com/venues/treehouse-clubhouse
+- Type: Indoor playground, Banquet hall, Children hall, Children's party buffet, Children's party service, Event planner, Event venue, Party planner, Playground, Recreation center
+- Location: 1095 Kingston Rd, Pickering, ON L1V 1B5, Canada
+- Google rating: 4.2/5 from 1172 reviews
+- Phone: +19054207529
+- Website: http://www.treehouseclubhouse.com/
+- Kid-fit score: 4/5
+
+## Woodbridge (2 venues)
+
+### The Bubble Jump Park - Vaughan
+- URL: https://www.torontobirthdayparties.com/venues/the-bubble-jump-park-vaughan
+- Type: Amusement center
+- Location: 7979 Weston Rd, Woodbridge, ON L4L 0L4, Canada
+- Google rating: 4.8/5 from 1420 reviews
+- Phone: +19056229500
+- Website: https://www.the-bubble.ca/
+- Kid-fit score: 2/5
+
+### Tiny Town Vaughan
+- URL: https://www.torontobirthdayparties.com/venues/tiny-town-vaughan
+- Type: Indoor playground
+- Location: 5875 Hwy 7 Unit 12, Woodbridge, ON L4L 1T9, Canada
+- Google rating: 4.4/5 from 470 reviews
+- Birthday party packages from $470 CAD
+- Package details: Packages from $470 · up to 20 kids · 2.5 hours
+- Phone: +19058502850
+- Website: http://www.tinytownvaughan.ca/
+- Kid-fit score: 5/5
+
+## Aurora (1 venues)
+
+### Kid's Cuckoos Nest
+- URL: https://www.torontobirthdayparties.com/venues/kid-s-cuckoos-nest
+- Type: Indoor playground, Event venue
+- Location: 155 Industrial Pkwy S, Aurora, ON L4G 3V5, Canada
+- Google rating: 4.3/5 from 839 reviews
+- Birthday party packages from $299 CAD
+- Package details: Packages from $299 · up to 10 kids · 2.5 hours
+- Phone: +19057276378
+- Website: http://kidscuckoosnest.com/
+- Kid-fit score: 5/5
+
+## East York (1 venues)
+
+### Happy Planet Kids Indoor Playground & Party Leaside
+- URL: https://www.torontobirthdayparties.com/venues/happy-planet-kids-indoor-playground-party-leaside
+- Type: Indoor playground, Children's camp, Children's cafe, Children's party service, Event venue
+- Location: 1 Leaside Park Dr Unit 7-8, East York, ON M4H 1R1, Canada
+- Google rating: 4.9/5 from 327 reviews
+- Phone: +14164252888
+- Website: https://www.happyplanetca.com/leaside-1
+- Kid-fit score: 5/5

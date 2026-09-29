@@ -140,7 +140,7 @@ export default async function VenuePage({ params }) {
       </article>
       {nearby.length ? (
         <section>
-          <h2>More kids party venues in {v.city}</h2>
+          <h2>More birthday party venues in {v.city}</h2>
           <ul className="city-grid">
             {nearby.map((n) => (
               <li key={n.slug}>

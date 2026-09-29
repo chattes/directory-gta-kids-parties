@@ -1,0 +1,18 @@
+{
+  "name": "Toronto Birthday Parties",
+  "url": "https://www.torontobirthdayparties.com",
+  "description": "Hand-curated directory of 92 kids birthday party venues across the Greater Toronto Area, Ontario, Canada. Every listing is verified for real birthday party packages by crawling the venue's website and cross-checking Google reviews. Includes package pricing, ratings and a kid-fit score per venue.",
+  "language": "en-CA",
+  "region": "Greater Toronto Area, Ontario, Canada",
+  "type": "Directory",
+  "updated": "2026-09-29",
+  "contact": "feedback@torontobirthdayparties.com",
+  "pages": {
+    "home": "https://www.torontobirthdayparties.com/",
+    "about": "https://www.torontobirthdayparties.com/about",
+    "contact": "https://www.torontobirthdayparties.com/contact",
+    "browse_by_city": "https://www.torontobirthdayparties.com/birthday-party-venues",
+    "llms_index": "https://www.torontobirthdayparties.com/llms.txt",
+    "feed": "https://www.torontobirthdayparties.com/feed.xml"
+  }
+}

@@ -10,6 +10,7 @@ export default function sitemap() {
   }));
   const cityPages = cities.map((c) => ({
     url: `${SITE_URL}/birthday-party-venues/${c.slug}`,
+    lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.9,
   }));

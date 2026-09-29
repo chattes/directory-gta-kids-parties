@@ -68,7 +68,7 @@ export default async function CityPage({ params }) {
           {others.map((o) => (
             <li key={o.slug}>
               <Link href={`/birthday-party-venues/${o.slug}`}>
-                Kids party venues in {o.name} <span className="count">({o.count})</span>
+                Party venues in {o.name} <span className="count">({o.count})</span>
               </Link>
             </li>
           ))}

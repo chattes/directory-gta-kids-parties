@@ -1,0 +1,29 @@
+{
+  "site": "https://www.torontobirthdayparties.com",
+  "faq": [
+    {
+      "question": "What is Toronto Birthday Parties?",
+      "answer": "A hand-curated directory of 92 kids birthday party venues across the Greater Toronto Area — indoor playgrounds, trampoline parks, laser tag, amusement centres, VR arcades and children's entertainers — searchable by city."
+    },
+    {
+      "question": "How are venues verified?",
+      "answer": "Each venue's website is crawled for real birthday party packages and its Google reviews are analysed, including the share of recent reviews mentioning kids. Venues with verifiable party packages are listed; listings that can no longer be verified are removed in a monthly re-check."
+    },
+    {
+      "question": "Is Toronto Birthday Parties free?",
+      "answer": "Yes. It is free for parents searching for a venue, and free for venues to be listed. Venues can be added, updated or removed via the contact page."
+    },
+    {
+      "question": "Which cities are covered?",
+      "answer": "Toronto, Mississauga, Scarborough, Vaughan, Brampton, Markham, Whitby and 7 more GTA cities, each with its own curated listing page."
+    },
+    {
+      "question": "Does the site take bookings?",
+      "answer": "No. The directory links parents directly to each venue's own website, phone number and Google Maps listing so they can book directly."
+    },
+    {
+      "question": "How can a venue owner list or update their business?",
+      "answer": "Use the contact page at https://www.torontobirthdayparties.com/contact or email feedback@torontobirthdayparties.com."
+    }
+  ]
+}

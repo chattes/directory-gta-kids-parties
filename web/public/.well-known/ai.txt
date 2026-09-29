@@ -1,0 +1,22 @@
+# Toronto Birthday Parties (torontobirthdayparties.com)
+
+Contact: feedback@torontobirthdayparties.com
+Language: en-CA
+Updated: 2026-09-29
+
+## About
+
+Toronto Birthday Parties is a hand-curated directory of 92 kids birthday party venues across the Greater Toronto Area, Ontario, Canada. Each venue is verified by crawling its website for real birthday party packages and cross-checking Google reviews. Listings are free for venues; parents use the site at no cost.
+
+## Allowed use
+
+- AI search and answer engines may crawl, quote and cite all pages.
+- Venue names, ratings and package facts may be summarized in answers with attribution.
+- Bulk re-publication of the full catalogue is not allowed.
+
+## Key pages
+
+- Site index for AI engines: https://www.torontobirthdayparties.com/llms.txt
+- Structured summary: https://www.torontobirthdayparties.com/ai/summary.json
+- FAQ: https://www.torontobirthdayparties.com/ai/faq.json
+- Service description: https://www.torontobirthdayparties.com/ai/service.json

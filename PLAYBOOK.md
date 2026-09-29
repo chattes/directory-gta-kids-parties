@@ -33,6 +33,12 @@ writes `data/verify_report.json`, gitignored). Drop rules + post-drop steps: see
 That's it. Google drops the page from the index on its next crawl (it's 404'd
 via not-found).
 
+**After any listing change:** regenerate the AI catalogue with
+`node scripts/gen-llms.mjs` (rewrites `web/public/llms-full.txt` from
+`web/lib/data/venues.json`) and commit it alongside the data change. The venue
+counts inside `web/public/llms.txt`, `web/public/ai/*.json` and the homepage FAQ
+are hand-written — bump them when the totals change.
+
 **Add one venue by hand:** add a row with at least name, categories, address,
 city, website, google_maps_url — the site renders fine with partial data.
 
