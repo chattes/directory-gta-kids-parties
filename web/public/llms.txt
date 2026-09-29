@@ -15,7 +15,7 @@
 
 ## How listings are curated
 
-Every venue is verified by crawling its website for real birthday party packages and cross-checking Google reviews (including the share of recent reviews mentioning kids). Each venue page shows its rating, review count, package pricing when published, and a kid-fit balloon rating with the honest basis for the score. Listings that can no longer be verified are removed. The full catalogue is re-verified monthly.
+Every venue is verified by checking its own website for real birthday party packages and reading its Google reviews (including how often recent reviews mention kids). Each venue page shows its rating, review count, package pricing when published, and a kid-fit balloon rating with the honest basis for the score. Listings that can no longer be verified are removed. The full catalogue is re-verified monthly.
 
 ## For venue owners
 

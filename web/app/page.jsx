@@ -33,7 +33,7 @@ export default function HomePage() {
     },
     {
       q: 'How are venues verified?',
-      a: 'Each venue\u2019s website is crawled for real birthday party packages and its Google reviews are analysed, including the share of recent reviews mentioning kids. Venues with verifiable party packages get listed; listings that can no longer be verified are removed in a monthly re-check.',
+      a: 'We check every venue\u2019s own website to confirm the birthday party packages are real, then read the Google reviews to see what parents actually say — including how often recent reviews mention kids. If it checks out, the venue gets in. We re-check every listing monthly, and anything we can\u2019t confirm comes down.',
     },
     {
       q: 'Is it free to use?',

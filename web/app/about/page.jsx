@@ -23,10 +23,10 @@ export default function AboutPage() {
           <h2>How venues are chosen</h2>
           <p>
             Every listing starts with a real venue that publicly offers birthday party packages.
-            Each candidate is crawled to confirm the packages still exist, and its Google reviews
-            are analysed — including the share of recent reviews that mention kids — before it goes
-            live. That review signal also feeds the kid-fit balloon score on each listing, so the
-            rating shows its work.
+            Before anything goes live, we visit the venue&apos;s website ourselves to confirm the
+            packages are still on offer, and we read the Google reviews — including the share of
+            recent ones that mention kids. That review signal also feeds the kid-fit balloon score
+            on each listing, so the rating shows its work.
           </p>
           <p>
             Listings are re-verified monthly. A venue whose party pages disappear or whose site can
@@ -55,7 +55,7 @@ export default function AboutPage() {
         <section>
           <h2>AI and data use</h2>
           <p>
-            The catalogue is maintained with the help of automated crawlers, and the site publishes
+            The catalogue is kept current with a little software help, and the site publishes
             machine-readable indexes (<a href="/llms.txt">llms.txt</a>,{' '}
             <a href="/llms-full.txt">llms-full.txt</a>) so AI search engines can quote and cite
             accurate, current venue information. Bulk re-publication of the catalogue itself is not
