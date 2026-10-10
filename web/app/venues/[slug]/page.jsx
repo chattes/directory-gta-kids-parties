@@ -132,9 +132,11 @@ export default async function VenuePage({ params }) {
                 🌐 <a href={v.website} target="_blank" rel="noopener noreferrer nofollow">Visit website</a>
               </li>
             ) : null}
-            <li>
-              🗺️ <a href={v.mapsUrl} target="_blank" rel="noopener noreferrer nofollow">View on Google Maps</a>
-            </li>
+{v.mapsUrl ? (
+              <li>
+                🗺️ <a href={v.mapsUrl} target="_blank" rel="noopener noreferrer nofollow">View on Google Maps</a>
+              </li>
+            ) : null}
           </ul>
         </section>
       </article>
