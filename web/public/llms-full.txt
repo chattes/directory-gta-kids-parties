@@ -1,8 +1,8 @@
 # Toronto Birthday Parties — Full Venue Catalogue
 
-> Complete machine-readable catalogue of 92 verified kids birthday party venues across the GTA. Updated 2026-09-29. See https://www.torontobirthdayparties.com/llms.txt for the site index.
+> Complete machine-readable catalogue of 93 verified kids birthday party venues across the GTA. Updated 2026-10-10. See https://www.torontobirthdayparties.com/llms.txt for the site index.
 
-## Toronto (13 venues)
+## Toronto (14 venues)
 
 ### Artventures Toronto Parliament
 - URL: https://www.torontobirthdayparties.com/venues/artventures-toronto-parliament
@@ -124,6 +124,14 @@
 - Package details: up to 24 kids
 - Phone: +16478125622
 - Website: https://partyto.ca/
+- Kid-fit score: 4/5
+
+### Teddy Bear Workshop
+- URL: https://www.torontobirthdayparties.com/venues/teddy-bear-workshop
+- Type: Children's party service, Children's entertainer, Party planner
+- Location: 
+- Package details: Mobile plush-making workshop · Each child creates, stuffs and takes home their own plush pal · Perfect for ages 3+
+- Website: https://teddybearworkshop.ca
 - Kid-fit score: 4/5
 
 ### The Rec Room Roundhouse

@@ -9,7 +9,7 @@
     "capabilities": [
       {
         "name": "Browse venues by city",
-        "description": "Filter 92 verified venues across 14 GTA cities, sorted by Google rating.",
+        "description": "Filter 93 verified venues across 14 GTA cities, sorted by Google rating.",
         "endpoint": "https://www.torontobirthdayparties.com/birthday-party-venues"
       },
       {

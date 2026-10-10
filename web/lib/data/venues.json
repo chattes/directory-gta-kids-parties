@@ -2418,6 +2418,31 @@
    "priceBucket": "500-800",
    "kidReviewPct": 40,
    "kidFit": 4
+  },
+  {
+   "slug": "teddy-bear-workshop",
+   "name": "Teddy Bear Workshop",
+   "tags": [
+    "Children's party service",
+    "Children's entertainer",
+    "Party planner"
+   ],
+   "address": "",
+   "city": "Toronto",
+   "postalCode": "",
+   "phone": "",
+   "website": "https://teddybearworkshop.ca",
+   "rating": null,
+   "reviews": 0,
+   "priceLevel": "",
+   "lat": null,
+   "lng": null,
+   "mapsUrl": "",
+   "partyDetails": "Mobile plush-making workshop \u00b7 Each child creates, stuffs and takes home their own plush pal \u00b7 Perfect for ages 3+",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 0,
+   "kidFit": 4
   }
  ],
  "cities": {
@@ -2510,6 +2535,7 @@
    "little-jingle-beans-inc",
    "magic-moments-playground-birthday-parties",
    "partyto-children-s-entertainers-balloons-bouncy-castle-photobooth-rentals-in-toronto",
+   "teddy-bear-workshop",
    "the-rec-room-roundhouse"
   ],
   "Vaughan": [
