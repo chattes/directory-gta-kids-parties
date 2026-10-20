@@ -2,6 +2,7 @@ import './globals.css';
 import Link from 'next/link';
 import { Analytics } from '@vercel/analytics/next';
 import SiteNav from '@/components/SiteNav';
+import UmamiAnalytics from '@/components/UmamiAnalytics';
 import { SITE_URL, SITE_NAME } from '@/lib/site';
 
 export const metadata = {
@@ -89,6 +90,7 @@ export default function RootLayout({ children }) {
           </div>
         </footer>
         <Analytics />
+        <UmamiAnalytics />
       </body>
     </html>
   );
