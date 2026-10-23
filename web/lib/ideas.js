@@ -190,8 +190,8 @@ export function ideaSearchTerms(venue) {
     .filter(Boolean)
     .join(' | ');
   const out = new Set();
+  // Each keyword is checked against the venue's own text, whatever group its category falls in.
   for (const g of ACTIVITY_GROUPS) {
-    if (!tags.some((t) => g.match.test(t))) continue;
     g.keywords.filter((k) => k.match.test(text)).forEach((k) => out.add(k.word));
   }
   venueAgeBands(venue).forEach((band) => {
