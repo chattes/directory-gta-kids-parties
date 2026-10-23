@@ -37,6 +37,9 @@ def main(inp):
             "priceBucket": (r.get("price_bucket") or "").strip() or None,
             "kidReviewPct": int(r.get("kid_review_pct") or 0),
             "kidFit": int(r["kid_fit"]) if (r.get("kid_fit") or "").strip() else None,
+            "summary": (r.get("summary") or "").strip(),
+            "overview": (r.get("overview") or "").strip(),
+            "lastVerified": (r.get("last_verified") or "").strip() or None,
         })
     venues.sort(key=lambda v: -(v["reviews"] or 0))
     cities = {}

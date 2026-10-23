@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
               before booking.
             </p>
             <p>
-              <Link href="/birthday-party-venues">Browse by city</Link> · <Link href="/about">About</Link> ·{' '}
+              <Link href="/birthday-party-venues">Browse by city</Link> · <Link href="/birthday-party-ideas/toronto">Party ideas in Toronto</Link> · <Link href="/about">About</Link> ·{' '}
               <a href="/sitemap.xml">Sitemap</a> · <a href="/feed.xml">RSS</a>
             </p>
           </div>

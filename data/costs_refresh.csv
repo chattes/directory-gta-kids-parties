@@ -1,0 +1,4 @@
+date,service,detail,items,est_cost_usd
+2026-10-23,apify,places_refresh test run (3 place_ids, run 6V8tFVyuPcDTTBn5A),3,0.0152
+2026-10-23,apify,places_refresh full run (92 place_ids, run tjP2HKzYn0XC7ViJ9),92,0.4602
+2026-10-23,apify,website-content-crawler fallback for 3 Cloudflare/Wix-blocked pages (run wC6uv92phP4ZogTVc),3,0.0200

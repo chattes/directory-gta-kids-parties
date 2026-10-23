@@ -39,3 +39,5 @@ data/party_extract.json
 data/verify_report.json
 .vercel
 .env*
+data/raw_refresh/
+research_kw/raw/

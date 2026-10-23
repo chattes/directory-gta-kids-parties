@@ -435,3 +435,25 @@ h2 { font-size: clamp(1.7rem, 3.6vw, 2.5rem); margin-bottom: 6px; }
 }
 .faq-list summary { font-weight: 800; cursor: pointer; }
 .faq-list details p { margin: 8px 0 2px; }
+
+/* Birthday party ideas + ranked lists */
+.idea-group { margin-top: 26px; }
+.idea-group h3 { font-size: 1.5rem; margin: 0 0 6px; }
+.idea-count { font-weight: 800; color: var(--muted); margin: 6px 0 0; }
+.idea-list, .pick-list { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 12px; }
+.idea-item, .pick-item {
+  background: var(--panel); border: 2px solid var(--ink); border-radius: var(--radius);
+  box-shadow: 4px 4px 0 var(--ink); padding: 14px 16px;
+}
+.idea-item > a, .pick-item > a { font-weight: 800; color: var(--ink); font-size: 1.1rem; display: inline-block; min-height: 44px; line-height: 44px; }
+.idea-item > a:hover, .pick-item > a:hover { color: var(--coral); }
+.idea-item p, .pick-item p { margin: 4px 0; }
+.idea-facts { font-weight: 700; color: var(--muted); }
+.pick-score { font-weight: 800; color: var(--muted); }
+.venue-checked { font-weight: 700; color: var(--muted); }
+ol.pick-list { counter-reset: pick; }
+ol.pick-list > li { counter-increment: pick; }
+ol.pick-list > li > a::before { content: counter(pick) ". "; color: var(--coral); }
+@media (max-width: 640px) {
+  .idea-item, .pick-item { padding: 12px 14px; }
+}
