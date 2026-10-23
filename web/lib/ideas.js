@@ -29,6 +29,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'playgrounds',
     title: 'Indoor playgrounds and play centres',
+    keywords: ['indoor playground', 'soft play', 'play centre'],
     match: /indoor playground|playground|children's club|recreation center/i,
     blurb:
       'Soft play structures, slides and climbing areas under one roof, with a private party room for food and presents. Works for mixed ages, and suits a party where the kids mostly run around.',
@@ -36,6 +37,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'active',
     title: 'Trampoline, gymnastics, climbing and bowling',
+    keywords: ['trampoline', 'gymnastics', 'climbing', 'bowling', 'active'],
     match: /trampoline|gymnastics|climbing|\bgym\b|high ropes|sports complex|bowling/i,
     blurb:
       'Timed jump sessions, climbing walls or lanes, usually run by staff who brief the group on the rules first. A good match for kids who want to be active and for groups old enough to follow a safety briefing.',
@@ -43,6 +45,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'arcade',
     title: 'Laser tag, VR and arcades',
+    keywords: ['laser tag', 'vr', 'virtual reality', 'arcade', 'games'],
     match: /laser tag|video arcade|virtual reality|\bvr\b/i,
     blurb:
       'Game-based parties with timed sessions and game credits. Many kids in this group are school age or older. Check whether the package includes food and whether the venue has adult areas.',
@@ -50,6 +53,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'arts',
     title: 'Arts, crafts and pottery',
+    keywords: ['pottery', 'painting', 'arts and crafts', 'craft'],
     match: /art studio|art school|art cafe|art center|pottery|painting studio|ceramic/i,
     blurb:
       'Kids paint, make something or throw pottery, and take their work home. A calmer option for smaller groups and for kids who prefer making to running around.',
@@ -57,6 +61,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'entertainers',
     title: 'Entertainers and performers',
+    keywords: ['magician', 'entertainer', 'characters', 'balloons', 'bouncy castle', 'at home'],
     match: /entertainer|magician|balloon artist|bouncy castle|party equipment/i,
     blurb:
       'A performer runs the games, magic or characters, so the host has less to set up. Ask whether the performer travels to your home or to a rented hall, and what equipment is included.',
@@ -64,6 +69,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'amusement',
     title: 'Amusement parks and attractions',
+    keywords: ['amusement park', 'rides'],
     match: /amusement park|tourist attraction/i,
     blurb:
       'Rides, themed attractions or a large indoor destination with party packages. Visits are longer and busier than a party room, so plan for the day.',
@@ -72,6 +78,7 @@ export const ACTIVITY_GROUPS = [
     id: 'food-play',
     title: 'Family restaurants and play cafes',
     // Anchored so that "Art cafe" stays in the arts group.
+    keywords: ['restaurant', 'pizza', 'cafe', 'food'],
     match: /^(family restaurant|pizza[a-z ]*|coffee shop|cafe)$/i,
     blurb:
       'A party where food is part of the package, usually with a play area close to the table. A simpler option for younger kids. Confirm what food and drink the package includes.',
@@ -79,6 +86,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'animals',
     title: 'Animals, reptiles and hands-on science',
+    keywords: ['animals', 'reptiles', 'zoo', 'science'],
     match: /zoo|reptile|animal/i,
     blurb:
       'Visits with animals or live demonstrations. Handling rules and group sizes differ by venue, so ask before you book.',
@@ -86,6 +94,7 @@ export const ACTIVITY_GROUPS = [
   {
     id: 'spa',
     title: 'Spa and beauty parties',
+    keywords: ['spa', 'makeup', 'pamper'],
     match: /\bspa\b/i,
     blurb:
       'Themed spa or beauty parties for younger girls and tweens, with hosted activities such as crafts and treatments. Check the age range the venue lists.',
@@ -168,3 +177,25 @@ export function cityFacts(citySlug) {
 
 export const ageVenues = (citySlug, band) =>
   ideaVenues(citySlug).filter((v) => venueAgeBands(v).includes(band));
+
+const AGE_WORDS = { toddlers: 'toddler', kids: 'kids', tweens: 'teens' };
+
+// Search tags for one venue: the title and keywords of each activity group it matches,
+// age words from validated AGE_EVIDENCE rows only, and budget words for the lowest price bucket.
+export function ideaTagsFor(venue) {
+  const tags = venue.tags || [];
+  const out = new Set();
+  for (const g of ACTIVITY_GROUPS) {
+    if (!tags.some((t) => g.match.test(t))) continue;
+    out.add(g.title.toLowerCase());
+    g.keywords.forEach((k) => out.add(k));
+  }
+  venueAgeBands(venue).forEach((band) => {
+    if (AGE_WORDS[band]) out.add(AGE_WORDS[band]);
+  });
+  if (venue.priceBucket === '<250') {
+    out.add('cheap');
+    out.add('budget');
+  }
+  return [...out];
+}

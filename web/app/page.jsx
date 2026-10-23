@@ -3,6 +3,7 @@ import SearchBox from '@/components/SearchBox';
 import VenueCard from '@/components/VenueCard';
 import { venues, cities } from '@/lib/venues';
 import { SITE_URL, SITE_NAME } from '@/lib/site';
+import { ideaTagsFor } from '@/lib/ideas';
 
 export default function HomePage() {
   const index = venues.map((v) => ({
@@ -11,6 +12,7 @@ export default function HomePage() {
     city: v.city,
     tags: v.tags,
     rating: v.rating,
+    ideas: ideaTagsFor(v),
   }));
   const featured = venues.slice(0, 9);
 
