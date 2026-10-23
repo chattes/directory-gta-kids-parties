@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import KidFitMeter from '@/components/KidFitMeter';
-import { venues, getVenue, getVenuesByCity, primaryTag, priceLabel, kidFitInfo } from '@/lib/venues';
+import { venues, getVenue, getVenuesByCity, primaryTag, priceLabel, kidFitInfo, formatDate } from '@/lib/venues';
 import { citySlug } from '@/lib/util';
 import { SITE_URL } from '@/lib/site';
 
@@ -16,9 +16,11 @@ export async function generateMetadata({ params }) {
   if (!v) return {};
   return {
     title: `${v.name} — Kids Birthday Party Venue in ${v.city}`,
-    description: `${v.name} is a ${primaryTag(v).toLowerCase()} in ${v.city}, Ontario${
-      v.rating ? ` rated ${v.rating.toFixed(1)}★ from ${v.reviews.toLocaleString('en-CA')} Google reviews` : ''
-    }. Verified birthday party venue — contact details, packages and location.`,
+    description: v.summary
+      ? v.summary
+      : `${v.name} is a ${primaryTag(v).toLowerCase()} in ${v.city}, Ontario${
+          v.rating ? ` rated ${v.rating.toFixed(1)}★ from ${v.reviews.toLocaleString('en-CA')} Google reviews` : ''
+        }. Verified birthday party venue — contact details, packages and location.`,
     alternates: { canonical: `${SITE_URL}/venues/${slug}` },
   };
 }
@@ -110,6 +112,13 @@ export default async function VenuePage({ params }) {
           <p className="kidfit-line">
             <KidFitMeter info={kidFit} />
           </p>
+        ) : null}
+        {v.overview ? (
+          <section>
+            <h2>About {v.name}</h2>
+            <p>{v.overview}</p>
+            {formatDate(v.lastVerified) ? <p className="venue-checked">Last checked {formatDate(v.lastVerified)}.</p> : null}
+          </section>
         ) : null}
         {v.partyDetails || v.fromPrice ? (
           <section className="party-box">

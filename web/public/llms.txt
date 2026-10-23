@@ -1,6 +1,6 @@
 # Toronto Birthday Parties
 
-> A hand-curated directory of kids birthday party venues across the Greater Toronto Area (GTA), Ontario, Canada. 93 venues verified for real birthday party packages — indoor playgrounds, trampoline parks, laser tag, amusement centres, VR arcades and children's entertainers — searchable by city. Free for parents; each listing links directly to the venue.
+> A hand-curated directory of kids birthday party venues across the Greater Toronto Area (GTA), Ontario, Canada. 92 venues verified for real birthday party packages — indoor playgrounds, trampoline parks, laser tag, amusement centres, VR arcades and children's entertainers — searchable by city. Free for parents; each listing links directly to the venue.
 
 ## Browse venues by city
 
@@ -12,6 +12,13 @@
 - [Markham](https://www.torontobirthdayparties.com/birthday-party-venues/markham)
 - [Whitby](https://www.torontobirthdayparties.com/birthday-party-venues/whitby)
 - [All cities](https://www.torontobirthdayparties.com/birthday-party-venues)
+
+## Birthday party ideas by city
+
+- [Toronto party ideas](https://www.torontobirthdayparties.com/birthday-party-ideas/toronto)
+- [Mississauga party ideas](https://www.torontobirthdayparties.com/birthday-party-ideas/mississauga)
+- [Vaughan party ideas](https://www.torontobirthdayparties.com/birthday-party-ideas/vaughan)
+- [Whitby party ideas](https://www.torontobirthdayparties.com/birthday-party-ideas/whitby)
 
 ## How listings are curated
 

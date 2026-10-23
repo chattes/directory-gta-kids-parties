@@ -2,9 +2,14 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import VenueCard from '@/components/VenueCard';
-import { cities, getVenuesByCity } from '@/lib/venues';
+import { cities, getVenuesByCity, topPicks, venueScore, kidFitInfo, displayName } from '@/lib/venues';
+import KidFitMeter from '@/components/KidFitMeter';
+import { IDEA_CITIES } from '@/lib/ideas';
 import { citySlug } from '@/lib/util';
 import { SITE_URL } from '@/lib/site';
+
+const TOP_PICK_CITIES = ['toronto', 'mississauga', 'vaughan'];
+const CHEAP_CITIES = ['brampton'];
 
 export function generateStaticParams() {
   return cities.map((c) => ({ city: c.slug }));
@@ -57,6 +62,81 @@ export default async function CityPage({ params }) {
         {list.length} curated kids party venues in {c.name}, Ontario. Every listing has been
         checked for real birthday party packages — browse, compare, and contact the venue directly.
       </p>
+      {TOP_PICK_CITIES.includes(city) ? (
+        <section>
+          <h2>Top picks in {c.name}</h2>
+          <p>
+            Only venues rated 3 or more on our 1 to 5 kid-fit scale qualify. They are ranked by Google rating
+            multiplied by the log of the review count, plus twice the kid-fit rating. The log means a 4.8 with 2,000
+            reviews counts for more than a 5.0 with 3 reviews.
+          </p>
+          <ol className="pick-list">
+            {topPicks(city, 5).map((v) => {
+              const kf = kidFitInfo(v);
+              return (
+                <li key={v.slug} className="pick-item">
+                  <Link href={`/venues/${v.slug}`}>{displayName(v.name)}</Link>
+                  <span className="pick-score">
+                    {' '}
+                    ★ {v.rating.toFixed(1)} ({v.reviews.toLocaleString('en-CA')} reviews) · score {venueScore(v).toFixed(1)}
+                  </span>
+                  {v.summary ? <p>{v.summary}</p> : null}
+                  {kf ? (
+                    <p className="kidfit-line">
+                      <KidFitMeter info={kf} />
+                    </p>
+                  ) : null}
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      ) : null}
+      {CHEAP_CITIES.includes(city) ? (
+        <section>
+          <h2>Cheaper options in {c.name}</h2>
+          {(() => {
+            const priced = list.filter((v) => v.fromPrice).sort((a, b) => a.fromPrice - b.fromPrice);
+            const perChild = list.filter((v) => !v.fromPrice && /per child/i.test(v.partyDetails || ''));
+            return (
+              <>
+                <p>
+                  {priced.length} of {list.length} {c.name} venues publish a package price. They are listed from
+                  lowest to highest. Venues without a published price are not ranked here.
+                </p>
+                <ol className="pick-list">
+                  {priced.map((v) => (
+                    <li key={v.slug} className="pick-item">
+                      <Link href={`/venues/${v.slug}`}>{displayName(v.name)}</Link>
+                      <span className="pick-score"> from ${v.fromPrice}</span>
+                      {v.partyDetails ? <p>{v.partyDetails}.</p> : null}
+                    </li>
+                  ))}
+                </ol>
+                {perChild.length ? (
+                  <>
+                    <h3>Priced per child</h3>
+                    <ul className="pick-list">
+                      {perChild.map((v) => (
+                        <li key={v.slug} className="pick-item">
+                          <Link href={`/venues/${v.slug}`}>{displayName(v.name)}</Link>
+                          <p>{v.partyDetails}.</p>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                ) : null}
+              </>
+            );
+          })()}
+        </section>
+      ) : null}
+      {IDEA_CITIES.includes(city) ? (
+        <p>
+          <Link href={`/birthday-party-ideas/${city}`}>Birthday party ideas in {c.name}, by activity and age</Link>
+        </p>
+      ) : null}
+      <h2>All {c.name} venues</h2>
       <div className="card-grid">
         {list.map((v) => (
           <VenueCard key={v.slug} venue={v} />

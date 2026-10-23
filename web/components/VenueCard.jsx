@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { primaryTag, priceLabel, fromPriceLabel, kidFitInfo } from '@/lib/venues';
+import { primaryTag, priceLabel, fromPriceLabel, kidFitInfo, displayName } from '@/lib/venues';
 import KidFitMeter from '@/components/KidFitMeter';
 
 export default function VenueCard({ venue }) {
@@ -9,7 +9,7 @@ export default function VenueCard({ venue }) {
   return (
     <article className="venue-card">
       <h3>
-        <Link href={`/venues/${venue.slug}`}>{venue.name}</Link>
+        <Link href={`/venues/${venue.slug}`}>{displayName(venue.name)}</Link>
       </h3>
       <p className="venue-meta">
         <span className="tag">{primaryTag(venue)}</span>

@@ -1,0 +1,16 @@
+timestamp,endpoint,location,tasks,keywords,cost_usd,notes
+2026-10-23,keywords_data/google_ads/search_volume/live,CA(2124),1,1,0.090000,TEST single keyword cost check
+2026-10-23,keywords_data/google_ads/search_volume/live,CA(2124),1,173,0.090000,main keyword set: city x pattern + generic, one task
+2026-10-23,ai_optimization/ai_keyword_data/keywords_search_volume/live,CA(2124),1,173,0.027300,AI search volume, same keyword set
+2026-10-23,dataforseo_labs/google/bulk_keyword_difficulty/live,CA(2124),1,173,0.032760,keyword difficulty, main set
+2026-10-23,dataforseo_labs/google/keyword_suggestions/live,CA(2124),3,300,0.012720,keyword suggestions for 3 seeds, limit 100 each
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: best birthday party venues toronto
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: trampoline park birthday party
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: birthday party ideas toronto
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: birthday party venues for teens
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: laser tag birthday party toronto
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: kids birthday party places mississauga
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: birthday party places for kids near me
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: cheap birthday party places brampton
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: birthday party ideas mississauga
+2026-10-23,serp/google/organic/live/advanced,CA(2124),1,1,0.004000,SERP top10 target: indoor birthday party toronto

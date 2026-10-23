@@ -109,6 +109,22 @@ export default function HomePage() {
       </section>
 
       <section>
+        <h2>Birthday party ideas by city</h2>
+        <ul className="city-grid">
+          {[
+            ['toronto', 'Toronto'],
+            ['mississauga', 'Mississauga'],
+            ['vaughan', 'Vaughan'],
+            ['whitby', 'Whitby'],
+          ].map(([slug, name]) => (
+            <li key={slug}>
+              <Link href={`/birthday-party-ideas/${slug}`}>Party ideas in {name}</Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
         <h2>Popular venues</h2>
         <div className="card-grid">
           {featured.map((v) => (
