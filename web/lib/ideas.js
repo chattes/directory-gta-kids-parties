@@ -5,7 +5,7 @@
 import { venues, getVenuesByCity, venueScore, formatDate, formatMonthYear } from './venues';
 import { citySlug } from './util';
 
-export const IDEA_CITIES = ['toronto', 'mississauga', 'vaughan', 'whitby'];
+export const IDEA_CITIES = ['toronto', 'mississauga', 'vaughan', 'whitby', 'burlington'];
 
 // Ideas pages that cover more than one listed city. Only these pages widen their venue set.
 export const IDEA_AREAS = {
