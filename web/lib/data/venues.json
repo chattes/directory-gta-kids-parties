@@ -3382,6 +3382,35 @@
    "summary": "",
    "overview": "",
    "lastVerified": null
+  },
+  {
+   "slug": "happy-kids-party-co",
+   "name": "Happy Kids Party Co.",
+   "tags": [
+    "Children's party service",
+    "Children's entertainer",
+    "Entertainer",
+    "Party planner"
+   ],
+   "address": "",
+   "city": "Toronto",
+   "postalCode": "",
+   "phone": "",
+   "website": "https://happykidspartyco.ca/",
+   "rating": null,
+   "reviews": 0,
+   "priceLevel": "",
+   "lat": null,
+   "lng": null,
+   "mapsUrl": "",
+   "partyDetails": "Mobile parties at homes and venues \u00b7 Princess, K-pop Hunter, superhero and Miss Rachel-inspired character visits \u00b7 face painting, glitter bars, dance, glow and painting parties \u00b7 serves Durham Region, Toronto & GTA \u00b7 ages and group sizes vary by package",
+   "fromPrice": null,
+   "priceBucket": null,
+   "kidReviewPct": 0,
+   "kidFit": null,
+   "summary": "Mobile kids' party entertainment serving Durham Region, Toronto and the GTA. Costumed character visits (princesses, K-pop Hunters, superheroes, Miss Rachel-inspired), plus face painting, glitter bars, dance, glow and painting parties. They come to homes and venues \u2014 no storefront. Packages and pricing on their website.",
+   "overview": "Happy Kids Party Co. is a family-owned children's entertainment company established in 2024, serving Durham Region, Toronto and the Greater Toronto Area. Performers travel to clients' homes and party venues rather than hosting at a fixed location. Offerings include princess parties, K-pop Hunter character visits, superhero parties, Miss Rachel-inspired visits for babies and toddlers, face painting, glitter bars, dance parties, glow parties and painting parties. Ages, group sizes and minimum booking times vary by package and location; current packages and pricing are listed on their website. The business asks that no street address or phone number be published \u2014 contact is by email.",
+   "lastVerified": "2026-11-06"
   }
  ],
  "cities": {
@@ -3493,6 +3522,7 @@
    "bibbity-bobbity-princess-parties",
    "centreville-amusement-park",
    "freckles-world-children-s-party-entertainment-toronto",
+   "happy-kids-party-co",
    "jojofun-inc",
    "jump-for-joy-play-centre",
    "kidnasium-lawrence-park",
