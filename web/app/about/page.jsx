@@ -37,7 +37,7 @@ export default function AboutPage() {
         <section>
           <h2>How the site makes money</h2>
           <p>
-            It doesn&apos;t, yet. There are no sponsored placements and no affiliate links, and
+            There are no sponsored placements and no affiliate links, and
             listing positions follow the data — ratings first, not payments. If venues ever pay for
             anything, it will be clearly labelled and never affect ranking.
           </p>
