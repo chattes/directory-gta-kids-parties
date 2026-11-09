@@ -67,6 +67,12 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Nunito:wght@600;700;800&display=swap"
           rel="stylesheet"
         />
+        <meta name="google-adsense-account" content="ca-pub-7714651573993046" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7714651573993046"
+          crossOrigin="anonymous"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
@@ -84,7 +90,7 @@ export default function RootLayout({ children }) {
               before booking.
             </p>
             <p>
-              <Link href="/birthday-party-venues">Browse by city</Link> · <Link href="/birthday-party-ideas/toronto">Party ideas in Toronto</Link> · <Link href="/about">About</Link> ·{' '}
+              <Link href="/birthday-party-venues">Browse by city</Link> · <Link href="/birthday-party-ideas/toronto">Party ideas in Toronto</Link> · <Link href="/about">About</Link> · <Link href="/privacy">Privacy</Link> ·{' '}
               <a href="/sitemap.xml">Sitemap</a> · <a href="/feed.xml">RSS</a>
             </p>
           </div>
