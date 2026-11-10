@@ -95,3 +95,62 @@ export const formatMonthYear = (iso) =>
   iso
     ? new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-CA', { timeZone: 'UTC', year: 'numeric', month: 'long' })
     : null;
+
+// Nearby cities for cross-linking hubs and ideas pages. Both directions are listed.
+export const NEARBY_CITIES = {
+  toronto: ['north-york', 'scarborough', 'east-york', 'mississauga', 'vaughan', 'markham'],
+  'north-york': ['toronto', 'scarborough', 'vaughan', 'markham'],
+  scarborough: ['toronto', 'north-york', 'markham', 'pickering'],
+  'east-york': ['toronto', 'north-york', 'scarborough'],
+  mississauga: ['oakville', 'brampton', 'vaughan', 'toronto'],
+  oakville: ['mississauga', 'brampton'],
+  brampton: ['mississauga', 'vaughan', 'oakville'],
+  vaughan: ['brampton', 'north-york', 'markham', 'concord', 'woodbridge'],
+  concord: ['vaughan', 'woodbridge', 'north-york'],
+  woodbridge: ['vaughan', 'concord'],
+  markham: ['scarborough', 'north-york', 'vaughan', 'pickering'],
+  pickering: ['scarborough', 'markham', 'whitby'],
+  whitby: ['pickering', 'markham'],
+  aurora: ['vaughan', 'markham'],
+};
+
+// Price sentence for a list of venues with a fromPrice, sorted lowest first.
+// "1 of them publishes a package price: $525." / "3 of them publish package prices, from $300 to $525."
+export const priceSentence = (priced) => {
+  const n = priced.length;
+  if (!n) return 'None of them publish a package price.';
+  const lo = priced[0].fromPrice;
+  const hi = priced[n - 1].fromPrice;
+  if (n === 1) return `1 of them publishes a package price: $${lo}.`;
+  return lo === hi
+    ? `${n} of them publish package prices, all from $${lo}.`
+    : `${n} of them publish package prices, from $${lo} to $${hi}.`;
+};
+
+export const nearbyCities = (slug) =>
+  (NEARBY_CITIES[slug] || [])
+    .map((s) => cities.find((c) => c.slug === s))
+    .filter(Boolean);
+
+// Per-city facts computed from venue rows, used to give each hub page unique copy.
+export function cityStats(slug) {
+  const list = getVenuesByCity(slug);
+  const priced = list.filter((v) => v.fromPrice).sort((a, b) => a.fromPrice - b.fromPrice);
+  const rated = list.filter((v) => v.rating);
+  const totalReviews = list.reduce((sum, v) => sum + (v.reviews || 0), 0);
+  const avgRating = rated.length
+    ? rated.reduce((sum, v) => sum + v.rating, 0) / rated.length
+    : null;
+  const tagCounts = new Map();
+  list.forEach((v) => (v.tags || []).forEach((t) => tagCounts.set(t, (tagCounts.get(t) || 0) + 1)));
+  const topTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t]) => t);
+  return {
+    count: list.length,
+    priced,
+    minPrice: priced.length ? priced[0].fromPrice : null,
+    maxPrice: priced.length ? priced[priced.length - 1].fromPrice : null,
+    avgRating,
+    totalReviews,
+    topTags,
+  };
+}

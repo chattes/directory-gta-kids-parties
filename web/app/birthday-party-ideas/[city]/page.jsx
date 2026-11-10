@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import KidFitMeter from '@/components/KidFitMeter';
-import { cities, kidFitInfo, rankPicks, displayName } from '@/lib/venues';
+import { cities, kidFitInfo, rankPicks, displayName, nearbyCities, priceSentence } from '@/lib/venues';
 import { IDEA_CITIES, ideaGroups, ideaVenues, ideaAreas, cityFacts, ageVenues, AGE_BANDS } from '@/lib/ideas';
 import { SITE_URL } from '@/lib/site';
 
@@ -39,11 +39,18 @@ function buildFaqs(name, city, facts, groups) {
   const faqs = [];
   const { priced } = facts;
   if (priced.length) {
+    const n = priced.length;
     const lo = priced[0];
-    const hi = priced[priced.length - 1];
+    const hi = priced[n - 1];
+    const range =
+      n === 1
+        ? `from $${lo.fromPrice} at ${displayName(lo.name)}`
+        : lo.fromPrice === hi.fromPrice
+          ? `from $${lo.fromPrice}`
+          : `from $${lo.fromPrice} at ${displayName(lo.name)} to $${hi.fromPrice} at ${displayName(hi.name)}`;
     faqs.push({
       q: `How much does a birthday party cost in ${name}?`,
-      a: `${plural(priced.length, 'venue', 'venues')} of ${facts.count} in ${name} publish a package price, from $${lo.fromPrice} at ${displayName(lo.name)} to $${hi.fromPrice} at ${displayName(hi.name)}. Prices can change, so confirm with the venue before you book.`,
+      a: `${plural(n, 'venue', 'venues')} of ${facts.count} in ${name} ${n === 1 ? 'publishes a package price' : 'publish package prices'}, ${range}. Prices can change, so confirm with the venue before you book.`,
     });
   }
   faqs.push({
@@ -58,7 +65,7 @@ function buildFaqs(name, city, facts, groups) {
   if (top.length) {
     faqs.push({
       q: `Which birthday party venue in ${name} is the best for kids?`,
-      a: `By our score, the top three in ${name} are ${top.map((v) => displayName(v.name)).join(', ')}. The score combines Google rating, review count and kid-fit. The full ranking is on the ${name} venues page.`,
+      a: `By our score, the top three in ${name} are ${top.map((v) => displayName(v.name)).join(', ')}. The score combines Google rating, review count and kid-fit. See every ${name} venue on the venues page.`,
     });
   }
   if (facts.sizes.length) {
@@ -80,7 +87,9 @@ function buildFaqs(name, city, facts, groups) {
   });
   faqs.push({
     q: `Are there indoor birthday party places in ${name}?`,
-    a: `Yes. ${facts.indoorCount} of the ${facts.count} venues in ${name} are indoor playgrounds, gyms, trampoline or climbing centres, bowling, laser tag, VR or arcades.`,
+    a: facts.indoorCount
+      ? `Yes. ${facts.indoorCount} of the ${facts.count} venues in ${name} ${facts.indoorCount === 1 ? 'is' : 'are'} indoor playgrounds, gyms, trampoline or climbing centres, bowling, laser tag, VR or arcades.`
+      : `No. None of the ${facts.count} venues in ${name} in our list is an indoor playground, gym, trampoline or climbing centre, bowling, laser tag, VR or arcade.`,
   });
   faqs.push({
     q: `How current is the information for ${name}?`,
@@ -125,8 +134,6 @@ export default async function IdeasPage({ params }) {
     })),
   };
 
-  const priced = facts.priced.length;
-
   return (
     <div className="container">
       <Breadcrumbs
@@ -143,8 +150,7 @@ export default async function IdeasPage({ params }) {
       <h1>Birthday Party Ideas in {name} ({facts.monthYear})</h1>
       <p className="lede">
         {plural(facts.count, 'venue', 'venues')} in {name} across {plural(groups.length, 'kind', 'kinds')} of
-        party. {priced} of them publish a package price
-        {priced ? `, from $${facts.priced[0].fromPrice} to $${facts.priced[priced - 1].fromPrice}` : ''}. Last checked{' '}
+        party. {priceSentence(facts.priced)} Last checked{' '}
         {facts.lastLabel}.
       </p>
       <p>
@@ -257,6 +263,27 @@ export default async function IdeasPage({ params }) {
           })}
         </ul>
       </section>
+
+      {(() => {
+        const nearby = nearbyCities(city);
+        return nearby.length ? (
+          <section>
+            <h2>Nearby cities</h2>
+            <ul className="city-grid">
+              {nearby.map((n) => (
+                <li key={n.slug}>
+                  <Link href={`/birthday-party-venues/${n.slug}`}>Venues in {n.name}</Link>
+                  {IDEA_CITIES.includes(n.slug) ? (
+                    <>
+                      {' '}· <Link href={`/birthday-party-ideas/${n.slug}`}>ideas</Link>
+                    </>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null;
+      })()}
     </div>
   );
 }
