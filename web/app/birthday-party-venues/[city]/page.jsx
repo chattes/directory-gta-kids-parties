@@ -2,14 +2,11 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import VenueCard from '@/components/VenueCard';
-import { cities, getVenuesByCity, topPicks, venueScore, kidFitInfo, displayName } from '@/lib/venues';
+import { cities, getVenuesByCity, topPicks, venueScore, kidFitInfo, displayName, cityStats, nearbyCities } from '@/lib/venues';
 import KidFitMeter from '@/components/KidFitMeter';
 import { IDEA_CITIES } from '@/lib/ideas';
 import { citySlug } from '@/lib/util';
 import { SITE_URL } from '@/lib/site';
-
-const TOP_PICK_CITIES = ['toronto', 'mississauga', 'vaughan'];
-const CHEAP_CITIES = ['brampton'];
 
 export function generateStaticParams() {
   return cities.map((c) => ({ city: c.slug }));
@@ -46,6 +43,10 @@ export default async function CityPage({ params }) {
   };
 
   const others = cities.filter((x) => x.slug !== city).slice(0, 8);
+  const stats = cityStats(city);
+  const picks = topPicks(city, 5);
+  const nearby = nearbyCities(city);
+  const pricedVenues = list.filter((v) => v.fromPrice).sort((a, b) => a.fromPrice - b.fromPrice);
 
   return (
     <div className="container">
@@ -59,10 +60,21 @@ export default async function CityPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <h1>Kids Birthday Party Venues in {c.name}</h1>
       <p className="lede">
-        {list.length} curated kids party venues in {c.name}, Ontario. Every listing has been
-        checked for real birthday party packages — browse, compare, and contact the venue directly.
+        {list.length} curated kids party venues in {c.name}, Ontario
+        {stats.topTags.length ? <> — mostly {stats.topTags.map((t) => t.toLowerCase()).join(', ')}</> : null}.
+        {stats.minPrice != null ? (
+          <>
+            {' '}{stats.priced.length} of them publish a package price, from ${stats.minPrice} to ${stats.maxPrice}.
+          </>
+        ) : null}
+        {stats.avgRating ? (
+          <>
+            {' '}Average Google rating {stats.avgRating.toFixed(1)}★ across {stats.totalReviews.toLocaleString('en-CA')} reviews.
+          </>
+        ) : null}
+        {' '}Every listing has been checked for real birthday party packages — browse, compare, and contact the venue directly.
       </p>
-      {TOP_PICK_CITIES.includes(city) ? (
+      {picks.length >= 3 ? (
         <section>
           <h2>Top picks in {c.name}</h2>
           <p>
@@ -71,7 +83,7 @@ export default async function CityPage({ params }) {
             reviews counts for more than a 5.0 with 3 reviews.
           </p>
           <ol className="pick-list">
-            {topPicks(city, 5).map((v) => {
+            {picks.map((v) => {
               const kf = kidFitInfo(v);
               return (
                 <li key={v.slug} className="pick-item">
@@ -92,11 +104,11 @@ export default async function CityPage({ params }) {
           </ol>
         </section>
       ) : null}
-      {CHEAP_CITIES.includes(city) ? (
+      {pricedVenues.length >= 2 ? (
         <section>
           <h2>Cheaper options in {c.name}</h2>
           {(() => {
-            const priced = list.filter((v) => v.fromPrice).sort((a, b) => a.fromPrice - b.fromPrice);
+            const priced = pricedVenues;
             const perChild = list.filter((v) => !v.fromPrice && /per child/i.test(v.partyDetails || ''));
             return (
               <>
@@ -154,6 +166,20 @@ export default async function CityPage({ params }) {
           ))}
         </ul>
       </section>
+      {nearby.length ? (
+        <section>
+          <h2>Nearby cities</h2>
+          <ul className="city-grid">
+            {nearby.map((n) => (
+              <li key={n.slug}>
+                <Link href={`/birthday-party-venues/${n.slug}`}>
+                  {n.name} <span className="count">({n.count})</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
     </div>
   );
 }

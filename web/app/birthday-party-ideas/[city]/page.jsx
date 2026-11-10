@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import KidFitMeter from '@/components/KidFitMeter';
-import { cities, kidFitInfo, rankPicks, displayName } from '@/lib/venues';
+import { cities, kidFitInfo, rankPicks, displayName, nearbyCities } from '@/lib/venues';
 import { IDEA_CITIES, ideaGroups, ideaVenues, ideaAreas, cityFacts, ageVenues, AGE_BANDS } from '@/lib/ideas';
 import { SITE_URL } from '@/lib/site';
 
@@ -257,6 +257,27 @@ export default async function IdeasPage({ params }) {
           })}
         </ul>
       </section>
+
+      {(() => {
+        const nearby = nearbyCities(city);
+        return nearby.length ? (
+          <section>
+            <h2>Nearby cities</h2>
+            <ul className="city-grid">
+              {nearby.map((n) => (
+                <li key={n.slug}>
+                  <Link href={`/birthday-party-venues/${n.slug}`}>Venues in {n.name}</Link>
+                  {IDEA_CITIES.includes(n.slug) ? (
+                    <>
+                      {' '}· <Link href={`/birthday-party-ideas/${n.slug}`}>ideas</Link>
+                    </>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null;
+      })()}
     </div>
   );
 }
