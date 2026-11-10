@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import VenueCard from '@/components/VenueCard';
-import { cities, getVenuesByCity, topPicks, venueScore, kidFitInfo, displayName, cityStats, nearbyCities } from '@/lib/venues';
+import { cities, getVenuesByCity, topPicks, venueScore, kidFitInfo, displayName, cityStats, nearbyCities, priceSentence } from '@/lib/venues';
 import KidFitMeter from '@/components/KidFitMeter';
 import { IDEA_CITIES } from '@/lib/ideas';
 import { citySlug } from '@/lib/util';
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
   const name = c.name;
   return {
     title: `Kids Birthday Party Venues in ${name} (${c.count} Curated)`,
-    description: `The best kids birthday party venues in ${name}, Ontario — indoor playgrounds, trampoline parks and party spaces with verified birthday packages. Compare and contact venues directly.`,
+    description: `The best kids birthday party venues in ${name}, Ontario — indoor playgrounds, trampoline parks and party spaces. Compare and contact venues directly.`,
     alternates: { canonical: `${SITE_URL}/birthday-party-venues/${city}` },
   };
 }
@@ -60,19 +60,17 @@ export default async function CityPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <h1>Kids Birthday Party Venues in {c.name}</h1>
       <p className="lede">
-        {list.length} curated kids party venues in {c.name}, Ontario
-        {stats.topTags.length ? <> — mostly {stats.topTags.map((t) => t.toLowerCase()).join(', ')}</> : null}.
-        {stats.minPrice != null ? (
-          <>
-            {' '}{stats.priced.length} of them publish a package price, from ${stats.minPrice} to ${stats.maxPrice}.
-          </>
+        {list.length} curated kids party venues in {c.name}, Ontario.
+        {stats.topTags.length ? (
+          <> Common venue types: {stats.topTags.map((t) => t.toLowerCase()).join(', ')}.</>
         ) : null}
+        {stats.minPrice != null ? <> {priceSentence(stats.priced)}</> : null}
         {stats.avgRating ? (
           <>
             {' '}Average Google rating {stats.avgRating.toFixed(1)}★ across {stats.totalReviews.toLocaleString('en-CA')} reviews.
           </>
         ) : null}
-        {' '}Every listing has been checked for real birthday party packages — browse, compare, and contact the venue directly.
+        {' '}Browse, compare, and contact each venue directly.
       </p>
       {picks.length >= 3 ? (
         <section>

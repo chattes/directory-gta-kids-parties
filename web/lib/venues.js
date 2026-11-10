@@ -98,22 +98,33 @@ export const formatMonthYear = (iso) =>
 
 // Nearby cities for cross-linking hubs and ideas pages. Both directions are listed.
 export const NEARBY_CITIES = {
-  toronto: ['north-york', 'scarborough', 'east-york', 'etobicoke', 'mississauga', 'vaughan', 'markham'],
+  toronto: ['north-york', 'scarborough', 'east-york', 'mississauga', 'vaughan', 'markham'],
   'north-york': ['toronto', 'scarborough', 'vaughan', 'markham'],
   scarborough: ['toronto', 'north-york', 'markham', 'pickering'],
   'east-york': ['toronto', 'north-york', 'scarborough'],
-  etobicoke: ['toronto', 'mississauga'],
-  mississauga: ['etobicoke', 'oakville', 'brampton', 'vaughan', 'toronto'],
+  mississauga: ['oakville', 'brampton', 'vaughan', 'toronto'],
   oakville: ['mississauga', 'brampton'],
   brampton: ['mississauga', 'vaughan', 'oakville'],
   vaughan: ['brampton', 'north-york', 'markham', 'concord', 'woodbridge'],
   concord: ['vaughan', 'woodbridge', 'north-york'],
   woodbridge: ['vaughan', 'concord'],
   markham: ['scarborough', 'north-york', 'vaughan', 'pickering'],
-  pickering: ['scarborough', 'markham', 'whitby', 'ajax'],
-  whitby: ['pickering', 'ajax', 'markham'],
-  ajax: ['pickering', 'whitby'],
+  pickering: ['scarborough', 'markham', 'whitby'],
+  whitby: ['pickering', 'markham'],
   aurora: ['vaughan', 'markham'],
+};
+
+// Price sentence for a list of venues with a fromPrice, sorted lowest first.
+// "1 of them publishes a package price: $525." / "3 of them publish package prices, from $300 to $525."
+export const priceSentence = (priced) => {
+  const n = priced.length;
+  if (!n) return 'None of them publish a package price.';
+  const lo = priced[0].fromPrice;
+  const hi = priced[n - 1].fromPrice;
+  if (n === 1) return `1 of them publishes a package price: $${lo}.`;
+  return lo === hi
+    ? `${n} of them publish package prices, all from $${lo}.`
+    : `${n} of them publish package prices, from $${lo} to $${hi}.`;
 };
 
 export const nearbyCities = (slug) =>

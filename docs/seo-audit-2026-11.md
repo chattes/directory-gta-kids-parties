@@ -44,7 +44,7 @@ review totals) so each page's first 100 words differ meaningfully.
 ### 3. Demand pages missing: ideas pages for Oakville, Markham, Brampton (High)
 GSC shows searches for "birthday party ideas" in Oakville, Markham and Brampton
 (20–50/month each) but `/birthday-party-ideas/<city>` 404s for them. Pickering and
-Woodbridge also appear in GSC. Data check 2026-11-09: Oakville 6 venues, Markham 5,
+Woodbridge also appear in GSC. Data check 2026-11-09: Oakville 7 venues, Markham 5,
 Brampton 5, Pickering 3, Woodbridge 2.
 Fix: add ideas pages for oakville, markham, brampton, pickering (≥3 real venues
 each). Woodbridge stays out — only 2 venues, below the minimum for a useful page.
